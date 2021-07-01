@@ -1,8 +1,8 @@
 {
   "version": "0.0.0",
   "scripts": {
-    "dev": "eleventy --input content --output dist --watch --serve",
-    "build": "eleventy --input content --output dist"
+    "dev": "eleventy --watch --serve",
+    "build": "eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
