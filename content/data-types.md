@@ -1,3 +1,7 @@
+---
+Title: Data Types
+Author: Christian Crawford
+---
 # Data Types
 
 Javascript is a loosly types language and, like many languages, contains primitive and non-primitive types.
@@ -32,14 +36,25 @@ Javascript is a loosly types language and, like many languages, contains primiti
 
 ### Non-Primitives
   - Array
-    - A collection data that is numerically indexed.
+    - A collection data that is numerically indexed
+    - They can contain items of any data type
     ```javascript
-    let fruit = ['apple', 'orange'];
+    let fruits = ['apple', 'orange'];
+    let mixedArr = ['red', 7, false];
+    ```
+    - When addressing arrays you must do so using the numerical index
+    ```javascript
+    let fruits = ['apple', 'orange'];
+    // This will print 'apple'.
+    console.log(fruits[0]);
+    // This will print 'orange'.
+    console.log(fruits[1]);
     ```
   - Object
-    - A collection of properties which are made up of keys and values.
-    - The keys **must always** be a String.
-    - The values can be of any data type including other objects or functions.
+    - A collection of keys-value pairs referred to as properies
+    - The data is stored in an unordered fashion, unlike arrays
+    - The keys **must always** be a String
+    - The values can be of any data type including other objects or functions
     ```javascript
     let animals = {
       'mammals': ['elephant', 'bear', 'whale'],
@@ -47,6 +62,8 @@ Javascript is a loosly types language and, like many languages, contains primiti
       'birds': ['ostrich', 'flamingo', 'pigeon']
     };
     ```
+  Arrays and Objects will be discussed in more detail in another lesson (link tbd).
+  <br>
 
 **References:**
 - [Javascript data types](https://real-kevbot.medium.com/javascript-primitive-data-types-63993054314f)
