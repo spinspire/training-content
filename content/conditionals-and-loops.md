@@ -11,7 +11,7 @@ When you want to execute code only under certain circumstances you should use co
       console.log('Currently loading...');
     }
   ```
-  - The console.log will only be executed if the `isLoading` variable is a truthy value.
+  - The console.log will only be executed if the `isLoading` variable evaluated to a truthy value.
   <br>
 - If/Else statement
   - Similar to the if statement, except that you have an additional block where you can execute code if the condition is not met.
@@ -51,12 +51,20 @@ When you want to execute code only under certain circumstances you should use co
 ## Loops
 When you want to iterate over a collection of items or repeat until a certain condition is met.
 - For loop
+  - A for loop is composed of three parts, serparated by a semicolon (`;`).
+    - iterator variable
+    - condition
+    - iteration modifier
   ```javascript
-  for(let i=0; i < 5; i++) {
+  for(let i = 0; i < 5; i++) {
     console.log(`The value of i is: ${i}`);
   }
   ```
-  - **Note**: More advanced versions of the for loop exist ('forEach', 'for in', 'for of') and some will be covered in other sections.
+  - `let i = 0;` creates and initializes the iterator variable.
+  - The loop will continue to iterate until the condition evaluates to `false`.
+    - In this case `i < 5;` means that it will continue until `i` is greater than 5.
+  - `i++;` will increment the variable `i` after each time the loop is executed.
+  - **Note**: More advanced versions of the for loop exist and some will be covered in other sections.
 - While loop
   - The loop will continue to be executed as long as the condition evaluates to true.
   ```javascript
@@ -72,7 +80,7 @@ When you want to iterate over a collection of items or repeat until a certain co
   }
   ```
 - Do While loop
-  - Similar to the while loop, but differs in that it executes the code at least once before it checks the condition to determine whether or not to iterate.
+  - Similar to a while loop, but differs in that it executes the code at least once before it checks the condition to determine whether or not to iterate.
   ```javascript
   let x = 10;
 
