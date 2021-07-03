@@ -138,7 +138,7 @@ const hello = "say Hello instead";
 - However when it comes to objects const behaves differently.
 - if we declare a const object we can change the object itself but we can update the properties inside the object.
 
-## Hoisting of let,const, and var
+## Hoisting of let, const, and var
 
 - Hoisting is a javascript mechanism where variables and functions are all moved to the top of there scope before code execution
 - just the same as let, const declarations are hoisted to the top but are not initialized
