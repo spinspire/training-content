@@ -156,21 +156,10 @@ const hello = "say Hello instead";
   greeter = "say hello";
   ```
 
-````
-
 ## In summary
 
-    - Understanding variable declarations is extrmemely important in any type of programming.
-    - Understanding how and when to use these variable within the scope of your project will make designing an application much easier
-    - Also with utilizing the variable declarations of let and const they allow you to keep your code "dry".
-    - This means that you arent repaeting yourself with the same variables within your projects and can keep code clean and less confusing overall.
-    - The most important thing to remmeber is to keep your code simple, by using const over let you can make sure that a single variable represents a single value of data, which you can accomplish with using const over let.
-
-```
-
-```
-
-```
-
-```
-````
+- Understanding variable declarations is extrmemely important in any type of programming.
+- Understanding how and when to use these variable within the scope of your project will make designing an application much easier
+- Also with utilizing the variable declarations of let and const they allow you to keep your code "dry".
+- This means that you arent repaeting yourself with the same variables within your projects and can keep code clean and less confusing overall.
+- The most important thing to remmeber is to keep your code simple, by using const over let you can make sure that a single variable represents a single value of data, which you can accomplish with using const over let.
