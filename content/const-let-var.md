@@ -58,7 +58,7 @@
   console.log(hi); //"im saying hello now"
   ```
 
-- The problem here is that timesIveSaidHello is true because its greater than 3
+- The problem here is that var "timesIveSaidHello" is true because its greater than 3
 - That means hi is redefined it becomes a problem when you dont realize that var hi has already been defined before.
 - Especially if you have used the var "hi" in other parts of your code you will maybe get surprise output.
 - This is why let, and const are necessary
