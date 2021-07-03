@@ -2,23 +2,23 @@
 
 ## What are variable declarations?
 
-    - A variable declaration gives a name and a data type for the variable.
-    - these declarations may also have a specific value placed inside of it.
-    - A variable can not be used in a program unless it has aleady been declared.
+- A variable declaration gives a name and a data type for the variable.
+- these declarations may also have a specific value placed inside of it.
+- A variable can not be used in a program unless it has aleady been declared.
 
 ## Types of Variables in Javascript are:
 
-    - "let"
-    - "const"
-    - "var"
+- "let"
+- "const"
+- "var"
 
-### Var
+## Var
 
-    - It was a variable declaration before ES6 and is now mainly unused however you still may see older repositories using it. So it is important to understand what it is.
-    - Scope essentially means where variables can be used after declaring them.
-    - var can either be function/locally scoped or globally.
-    - Var declaration is global when it is declared outside a function.
-    - When var is declared inside a function it is locally scoped for use only in that function.
+- It was a variable declaration before ES6 and is now mainly unused however you still may see older repositories using it. So it is important to understand what it is.
+- Scope essentially means where variables can be used after declaring them.
+- var can either be function/locally scoped or globally.
+- Var declaration is global when it is declared outside a function.
+- When var is declared inside a function it is locally scoped for use only in that function.
 
 ### Here is an example of var:
 
@@ -63,7 +63,7 @@
 - Especially if you have used the var "hi" in other parts of your code you will maybe get surprise output.
 - This is why let, and const are necessary
 
-### Let
+## Let
 
 - It is now the go to variable declaration, it improves on var in many way.
 - One of those ways is by solving the problem with var we discussed above.
