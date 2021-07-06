@@ -23,17 +23,17 @@
 ### Here is an example of var:
 
     ```javascript
-       var hello = "hello"
-       function helloFunction(){
-           var hi = "hello"
-           console.log(hi, hello); //this can be done because var hello is global and is declared outside the function
-       }
-       console.log(hi,hello);
-        /*
-        * error: hi is not defined
-        * the reason for this is because hi is only
-        * locally defined in the helloFunction
-        */
+        var hello = "hello"
+        function helloFunction(){
+            var hi = "hello"
+            console.log(hi, hello); //this can be done because var hello is global and is declared outside the function
+        }
+        console.log(hi,hello);
+            /*
+            * error: hi is not defined
+            * the reason for this is because hi is only
+            * locally defined in the helloFunction
+            */
     ```
 
 ### var can be re-declared and updated
