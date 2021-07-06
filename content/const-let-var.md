@@ -91,7 +91,8 @@ console.log(myItem);
 
   ```javascript
   // this will work
-
+  let banana = "banana";
+  banana = "new banana";
   // this will not work
   let banana = "banana";
   let banana = "new banana";
