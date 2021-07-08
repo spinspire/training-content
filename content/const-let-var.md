@@ -3,7 +3,7 @@
 ## What are variable declarations?
 
 - A variable declaration gives a name and a data type for the variable.
-- these declarations may also have a specific value placed inside of it.
+- These declarations may also have a specific value placed inside of it.
 - A variable can not be used in a program unless it has aleady been declared.
 
 ## Types of Variables in Javascript are:
@@ -116,9 +116,9 @@ console.log(banana); // output: banana
 
 - Variables that are declared with const maintain constant values.
 - const just like let can only be accessed within the block scope they are declared in.
-- unlike let const can not be redeclared or updated eeven within the same scope.
-- this means that the value of const never changes within its scope.
-- if we declare a variable using const we can not do either one of these examples below.
+- Unlike let, const can not be redeclared or updated even within the same scope.
+- This means that the value of const never changes within its scope.
+- If we declare a variable using const we can not do either one of these examples below.
 
 ```javascript
 const hello = "hello";
@@ -133,17 +133,17 @@ const hello = "say Hello instead";
  */
 ```
 
-- this means that any and every const declaration must have an initialized value at the time of declaration
+- This means that any and every const declaration must have an initialized value at the time of declaration
 
 - However when it comes to objects const behaves differently.
-- if we declare a const object we can change the object itself but we can update the properties inside the object.
+- If we declare a const object we can change the object itself but we can update the properties inside the object.
 
 ## Hoisting of let, const, and var
 
 - Hoisting is a javascript mechanism where variables and functions are all moved to the top of there scope before code execution
-- just the same as let, const declarations are hoisted to the top but are not initialized
-- unlike let and const var is initialized as undefined, so if you try to use a let variable before declaration you'll get a reference error
-- an example of hoisting would be this:
+- Just the same as let, const declarations are hoisted to the top but are not initialized
+- Unlike let and const var is initialized as undefined, so if you try to use a let variable before declaration you'll get a reference error
+- An example of hoisting would be this:
 
 ```javascript
 console.log(greeter);
@@ -161,5 +161,5 @@ greeter = "say hello";
 - Understanding variable declarations is extrmemely important in any type of programming.
 - Understanding how and when to use these variable within the scope of your project will make designing an application much easier
 - Also with utilizing the variable declarations of let and const they allow you to keep your code "dry".
-- This means that you arent repaeting yourself with the same variables within your projects and can keep code clean and less confusing overall.
-- The most important thing to remmeber is to keep your code simple, by using const over let you can make sure that a single variable represents a single value of data, which you can accomplish with using const over let.
+- This means that you arent repeating yourself with the same variables within your projects and can keep code clean and less confusing overall.
+- The most important thing to remember is to keep your code simple, by using const over let you can make sure that a single variable represents a single value of data, which you can accomplish with using const over let.

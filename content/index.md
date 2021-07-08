@@ -13,3 +13,4 @@ The fastest way to JavaScript.
   - [`this` keyword](/this)
 - DHTML (Dynamic HTML)
   - [DOM (Document Object Module)](/document-object-model)
+  - [Attributes and Properties](/dom-props-attrs)
