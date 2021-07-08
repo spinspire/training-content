@@ -1,0 +1,19 @@
+version: "3.5"
+
+services:
+  web:
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "15"
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.${APP}.rule=Host(`${HTTP_HOSTNAME}`, `www.${HTTP_HOSTNAME}`)
+    networks:
+      - web
+      - default
+
+networks:
+  web:
+    external: true
