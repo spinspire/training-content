@@ -22,41 +22,40 @@
 
 ### Here is an example of var:
 
-    ```javascript
-        var hello = "hello"
-        function helloFunction(){
-            var hi = "hello"
-            console.log(hi, hello); //this can be done because var hello is global and is declared outside the function
-        }
-        console.log(hi,hello);
-            /*
-            * error: hi is not defined
-            * the reason for this is because hi is only
-            * locally defined in the helloFunction
-            */
-    ```
+```javascript
+var hello = "hello"
+function helloFunction(){
+    var hi = "hello"
+    console.log(hi, hello); //this can be done because var hello is global and is declared outside the function
+}
+console.log(hi,hello);
+/*
+* error: hi is not defined
+* the reason for this is because hi is only
+* locally defined in the helloFunction
+*/
+```
 
 ### var can be re-declared and updated
 
-    ```javascript
-        var hi = "hi"
-        var hi = "hello hi"
-        hi = "say hello"
-
-    ```
+```javascript
+var hi = "hi"
+var hi = "hello hi"
+hi = "say hello"
+```
 
 ### The problem with var
 
 - At this point you have to be thinking what's the downside of var? I'll show you in the example below!
 
-  ```javascript
-  var hi = "hi";
-  var timesIveSaidHello = 5;
-  if (timesIveSaidHello > 3) {
-    var hi = "I'm saying hello now";
-  }
-  console.log(hi); //"im saying hello now"
-  ```
+```javascript
+var hi = "hi";
+var timesIveSaidHello = 5;
+if (timesIveSaidHello > 3) {
+  var hi = "I'm saying hello now";
+}
+console.log(hi); //"im saying hello now"
+```
 
 - The problem here is that var "timesIveSaidHello" is true because its greater than 3
 - That means hi is redefined it becomes a problem when you dont realize that var hi has already been defined before.
@@ -89,14 +88,14 @@ console.log(myItem);
 
 - Just like var, let can be updated within its scope but it can not be declared again within it's scope
 
-  ```javascript
-  // this will work
-  let banana = "banana";
-  banana = "new banana";
-  // this will not work
-  let banana = "banana";
-  let banana = "new banana";
-  ```
+```javascript
+// this will work
+let banana = "banana";
+banana = "new banana";
+// this will not work
+let banana = "banana";
+let banana = "new banana";
+```
 
 - However if the same let variable is declared in different scopes then there will be no errors.
 
@@ -146,16 +145,16 @@ const hello = "say Hello instead";
 - unlike let and const var is initialized as undefined, so if you try to use a let variable before declaration you'll get a reference error
 - an example of hoisting would be this:
 
-  ```javascript
-  console.log(greeter);
-  var greeter = "say hello";
-  /*
-   * javascript interprets the above code to this
-   */
-  var greeter;
-  console.log(greeter); // greeter is undefined
-  greeter = "say hello";
-  ```
+```javascript
+console.log(greeter);
+var greeter = "say hello";
+/*
+ * javascript interprets the above code to this
+ */
+var greeter;
+console.log(greeter); // greeter is undefined
+greeter = "say hello";
+```
 
 ## In summary
 
