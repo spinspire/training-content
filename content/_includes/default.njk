@@ -10,7 +10,9 @@
     {{ content | safe }}
     <hr>
     <small>Copyright &copy; <a href="https://spinspire.com">SpinSpire</a></small>
+    {% if author %}
     <h5>Author: {{ author }}</h5>
+    {% endif %}
     {% if references %}
     <h5>References</h5>
     <ul>
