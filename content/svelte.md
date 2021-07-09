@@ -5,7 +5,7 @@ author: Jitesh Doshi
 
 # Svelte
 
-Svelte is a feature-rich but easy-to-use UI framework to create reactive web UI's in. In fact, while most frameworks are implemented as runtime libraries, this one is implemented as compiler. Which means it looks at your code at build-time and produces runtime code, which makes it more powerful and less heavy.
+Svelte is a feature-rich yet easy-to-use UI framework to create reactive web UI's. In fact, while most frameworks are implemented as *runtime* libraries, this one is implemented as compiler. Which means it looks at your code at *build-time* and produces runtime code, which makes it more powerful and less heavy.
 
 # Reactivity
 
@@ -30,3 +30,14 @@ And now, teach yourself Svelte with the following resources:
 4. [Video: How to learn Svelte](https://www.youtube.com/watch?v=hoGsNORT2b0)
 5. [Video: Beginner's tutorial in JavaScript UI development: with SvelteJS](https://www.youtube.com/watch?v=E5FmzsQWBh0)
 6. [Video: Svelte: project structure and build process fully explained](https://www.youtube.com/watch?v=gNrZbNQglho)
+
+# Main Features of Svelte
+
+1. [templates](https://svelte.dev/docs#Template_syntax) (ability to use JS variables in HTML wrapped in `{}`)
+2. reactive templates (whenever a value changes, it injects code that will re-render parts of the page that use that variable)
+3. [reactive declarations and statements](https://svelte.dev/docs#3_$_marks_a_statement_as_reactive)
+4. Single file components - HTML, CSS, and JavaScript all in one file, and the "component" is the "default" export.
+5. Components can receive [props](https://svelte.dev/docs#1_export_creates_a_component_prop).
+6. [CSS styles](https://svelte.dev/docs#style) are "scoped" by default.
+7. Attach [event listeners](https://svelte.dev/docs#on_element_event)
+8. Provides reactive [stores](https://svelte.dev/docs#svelte_store)
