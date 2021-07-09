@@ -1,4 +1,8 @@
-# Practical JavaScript
+---
+title: Practical JavaScript App Development
+author: SpinSpire Team
+---
+# Practical JavaScript App Development
 
 The fastest way to JavaScript.
 
