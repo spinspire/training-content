@@ -22,6 +22,6 @@ And now, teach yourself Svelte with the following resources:
 1. [svelte.dev](https://svelte.dev) - the flagship site for Svelte
 2. [Svelte Tutorial](https://svelte.dev/tutorial) - Do all modules, except "Motion", "Animation", and "Transitions", which should be considered *optional*.
 3. [Video: Why learn Svelte](https://www.youtube.com/watch?v=CsEPsFrBQ94)
-4. [Video: How to Svelte](https://www.youtube.com/watch?v=hoGsNORT2b0)
+4. [Video: How to learn Svelte](https://www.youtube.com/watch?v=hoGsNORT2b0)
 5. [Video: Beginner's tutorial in JavaScript UI development: with SvelteJS](https://www.youtube.com/watch?v=E5FmzsQWBh0)
 6. [Video: Svelte: project structure and build process fully explained](https://www.youtube.com/watch?v=gNrZbNQglho)
