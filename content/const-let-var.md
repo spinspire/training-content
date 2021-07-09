@@ -11,13 +11,13 @@ author: Brett Causey
 - These declarations may also have a specific value placed inside of it.
 - A variable can not be used in a program unless it has aleady been declared.
 
-## Types of Variables in Javascript are:
+Keywords to declare variables in JavaScript are ...
 
-- "let"
-- "const"
-- "var"
+- `let`
+- `const`
+- `var`
 
-## Var
+## var
 
 - It was a variable declaration before ES6 and is now mainly unused however you still may see older repositories using it. So it is important to understand what it is.
 - Scope essentially means where variables can be used after declaring them.
@@ -41,7 +41,7 @@ console.log(hi,hello);
 */
 ```
 
-### var can be re-declared and updated
+### Variable can be re-declared and updated
 
 ```javascript
 var hi = "hi"
