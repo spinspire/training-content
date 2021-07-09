@@ -1,6 +1,6 @@
 ---
-Title: Logical Operators
-Author: Christian Crawford
+title: Logical Operators
+author: Christian Crawford
 ---
 
 # Logical Operators

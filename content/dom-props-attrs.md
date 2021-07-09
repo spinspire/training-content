@@ -1,6 +1,6 @@
 ---
-Title: Attributes and Properties 
-Author: Christian Crawford
+title: Attributes and Properties 
+author: Christian Crawford
 ---
 
 # Attributes and Properties (DOM)

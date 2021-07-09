@@ -1,3 +1,8 @@
+---
+title: Svelte Kit
+author: Jitesh Doshi
+---
+
 # Svelte
 
 Svelte is a feature-rich but easy-to-use UI framework to create reactive web UI's in. In fact, while most frameworks are implemented as runtime libraries, this one is implemented as compiler. Which means it looks at your code at build-time and produces runtime code, which makes it more powerful and less heavy.

@@ -1,3 +1,8 @@
+---
+title: Svelte Kit
+author: Jitesh Doshi
+---
+
 # Svelte Kit
 
 [Svelte Kit](https://kit.svelte.dev) is an extension to Svelte that does these very important tasks:

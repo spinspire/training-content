@@ -1,3 +1,8 @@
+---
+title: Variable Declarations
+author: Brett Causey
+---
+
 # Variable Declarations
 
 ## What are variable declarations?
