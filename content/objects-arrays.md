@@ -1,5 +1,6 @@
 ---
 title: Objects and Arrays
+author: Jitesh Doshi
 references:
   - text: "MDN: JavaScript Arrays"
     url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array

@@ -8,9 +8,11 @@
   </head>
   <body>
     {{ content | safe }}
-    {% if references %}
     <hr>
-    <h2>References</h2>
+    <small>Copyright &copy; <a href="https://spinspire.com">SpinSpire</a></small>
+    <h5>Author: {{ author }}</h5>
+    {% if references %}
+    <h5>References</h5>
     <ul>
     {% for ref in references %}
       <li><a href="{{ ref.url }}" target="_blank">{{ ref.text }}</a></li>
