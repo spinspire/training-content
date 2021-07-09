@@ -14,3 +14,5 @@ The fastest way to JavaScript.
 - DHTML (Dynamic HTML)
   - [DOM (Document Object Model)](/document-object-model)
   - [Attributes and Properties](/dom-props-attrs)
+- [Svelte](/svelte)
+- [Svelte Kit](/svelte-kit)
