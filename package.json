@@ -2,6 +2,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "eleventy --watch --serve",
+    "watch": "eleventy --watch",
     "build": "eleventy"
   },
   "devDependencies": {

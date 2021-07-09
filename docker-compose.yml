@@ -10,7 +10,7 @@ services:
     working_dir: /var/www
     # use "npm run dev" to automatically rebuild on code changes
     # use "npm run build" for single build for prod
-    command: sh -c "npm install && npm run build"
+    command: sh -c "npm install && npm run watch"
     environment:
       - HOME=/var/www
       - SMTPHOST=${SMTPHOST}
