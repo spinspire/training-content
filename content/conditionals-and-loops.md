@@ -1,8 +1,12 @@
+---
+title: Conditional Statements and Loops
+author: Christian Crawford
+---
 # Conditional Statements and Loops
 
 ## Conditional Statements
 When you want to execute code only under certain circumstances you should use conditional statements.
-- If statement
+### If statement
   - When you want to conditionally execute some code you will wrap it in an if statement.
   ```javascript
     let isLoading = true;
@@ -13,7 +17,7 @@ When you want to execute code only under certain circumstances you should use co
   ```
   - The console.log will only be executed if the `isLoading` variable evaluated to a truthy value.
   <br>
-- If/Else statement
+### If/Else statement
   - Similar to the if statement, except that you have an additional block where you can execute code if the condition is not met.
   ```javascript
   const temperature = 85;
@@ -28,7 +32,7 @@ When you want to execute code only under certain circumstances you should use co
   ```
   - If the temperature is above 70 it will execute the code in the if block, otherwise it will execute the code in the else block.
   <br>
-- Switch statement
+### Switch statement
   - If you have many cases to check against you should use a switch statement. 
   - Each case block should generally include a `break`*
   - The switch statement should include a `default` case which happens when none of the other cases match.
@@ -50,7 +54,7 @@ When you want to execute code only under certain circumstances you should use co
 
 ## Loops
 When you want to iterate over a collection of items or repeat until a certain condition is met.
-- For loop
+### For loop
   - A for loop is composed of three parts, serparated by a semicolon (`;`).
     - iterator variable
     - condition
@@ -65,7 +69,7 @@ When you want to iterate over a collection of items or repeat until a certain co
     - In this case `i < 5;` means that it will continue until `i` is greater than 5.
   - `i++;` will increment the variable `i` after each time the loop is executed.
   - **Note**: More advanced versions of the for loop exist and some will be covered in other sections.
-- While loop
+### While loop
   - The loop will continue to be executed as long as the condition evaluates to true.
   ```javascript
   let isDone = false;
@@ -79,7 +83,7 @@ When you want to iterate over a collection of items or repeat until a certain co
     }
   }
   ```
-- Do While loop
+### Do While loop
   - Similar to a while loop, but differs in that it executes the code at least once before it checks the condition to determine whether or not to iterate.
   ```javascript
   let x = 10;
