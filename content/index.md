@@ -9,7 +9,7 @@ The fastest way to JavaScript.
   - [logical operators](/logical-operators)
   - [conditionals and loops](/conditionals-and-loops)
   - [data types](/data-types)
-  - [objects and arrays](/objects-arrays)
+  - [objects, arrays, and destructuring](/objects-arrays)
   - [`this` keyword](/this)
 - DHTML (Dynamic HTML)
   - [DOM (Document Object Model)](/document-object-model)

@@ -100,6 +100,37 @@ for(const prop of Object.keys(customer)) {
 3. Props can be accessed with the `.` (dot) or `[]` (array index) operators.
 4. Useful functions: `Object.entries()`, `Object.keys()`, `Object.assign`, `Object.is` ...
 
+# Destructuring
+
+It is common to extract values from objects and arrays and assign them to variables in local scope. For Example:
+
+```javascript
+const name = customer.name;
+const age = customer.age;
+const sq0 = squares1[0];
+const sq1 = squares1[1];
+const sq2 = squares1[2];
+```
+
+But the same can be expressed in shorter and more readable way like this:
+
+```javascript
+const {name, age, ...without_name_and_age} = customer;
+const [sq0, sq1, sq2, ...sq3to9] = squares;
+```
+
+Notice the use of spread operator to catch all values that are not already destructured.
+
+This approach is very commonly used in destructuring props directly from function parameter objects without having to assign them to local variables.
+
+```javascript
+function foo({ name, age }) {
+  // use name and age
+}
+
+foo(customer); // pass in the customer object
+```
+
 # References
 1. [MDN: JavaScript Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 2. [MDN: JavaScript Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
