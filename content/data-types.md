@@ -1,6 +1,9 @@
 ---
-Title: Data Types
-Author: Christian Crawford
+title: Data Types
+author: Christian Crawford
+references:
+  - text: Javascript data types
+    url: https://real-kevbot.medium.com/javascript-primitive-data-types-63993054314f
 ---
 # Data Types
 
@@ -62,8 +65,5 @@ Javascript is a loosly types language and, like many languages, contains primiti
       'birds': ['ostrich', 'flamingo', 'pigeon']
     };
     ```
-  Arrays and Objects will be discussed in more detail in another lesson (link tbd).
-  <br>
 
-**References:**
-- [Javascript data types](https://real-kevbot.medium.com/javascript-primitive-data-types-63993054314f)
+Arrays and Objects will be discussed in more detail in another lesson (link tbd).
