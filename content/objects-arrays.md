@@ -1,5 +1,10 @@
 ---
 title: Objects and Arrays
+references:
+  - text: "MDN: JavaScript Arrays"
+    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+  - text: "MDN: JavaScript Objects"
+    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 ---
 
 # Objects & Arrays
@@ -130,7 +135,3 @@ function foo({ name, age }) {
 
 foo(customer); // pass in the customer object
 ```
-
-# References
-1. [MDN: JavaScript Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-2. [MDN: JavaScript Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)

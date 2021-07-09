@@ -8,5 +8,14 @@
   </head>
   <body>
     {{ content | safe }}
+    {% if references %}
+    <hr>
+    <h2>References</h2>
+    <ul>
+    {% for ref in references %}
+      <li><a href="{{ ref.url }}" target="_blank">{{ ref.text }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
   </body>
 </html>
