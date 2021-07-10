@@ -1,6 +1,7 @@
 ---
 title: Attributes and Properties 
 author: Christian Crawford
+tags: dhtml
 ---
 
 # Attributes and Properties (DOM)

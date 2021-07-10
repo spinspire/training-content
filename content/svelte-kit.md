@@ -1,6 +1,7 @@
 ---
 title: Svelte Kit
 author: Jitesh Doshi
+tags: svelte
 ---
 
 # Svelte Kit

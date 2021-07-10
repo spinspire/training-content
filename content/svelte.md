@@ -1,6 +1,8 @@
 ---
-title: Svelte Kit
+title: Svelte
 author: Jitesh Doshi
+tags: svelte
+weight: -10
 ---
 
 # Svelte
@@ -12,8 +14,9 @@ Svelte is a feature-rich yet easy-to-use UI framework to create reactive web UI'
 ```html
 <script>
 let name = "world";
-setTimeout(() => name = "Waldo", 5000);
+setTimeout(() => name = "Waldo", 5000); // page updates reactively to change in value of name
 $: len = name.length; // reactive declaration
+$: console.log("name", name); // reactive statement
 </script>
 
 <p>Hello {name}</p>
@@ -41,3 +44,4 @@ And now, teach yourself Svelte with the following resources:
 6. [CSS styles](https://svelte.dev/docs#style) are "scoped" by default.
 7. Attach [event listeners](https://svelte.dev/docs#on_element_event)
 8. Provides reactive [stores](https://svelte.dev/docs#svelte_store)
+9. Provides actions (`use:action`) to attach callbacks to DOM changes
