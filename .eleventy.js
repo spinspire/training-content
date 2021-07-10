@@ -7,5 +7,6 @@ module.exports = function (eleventyConfig) {
       input: "content",
       output: "dist",
     },
+    pathPrefix: '/learn',
   };
 };
