@@ -2,6 +2,7 @@
 title: async/await
 author: Jitesh Doshi
 tags: ajax
+weight: 2
 references:
   "MDN: Fetch API": https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 ---

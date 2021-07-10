@@ -2,6 +2,7 @@
 title: JSON (JavaScript Object Notation)
 author: Jitesh Doshi
 tags: ajax
+weight: -1
 ---
 
 JSON is derived from JavaScript Object Notation, which is the notation JavaScript language uses natively to express object literals. The benefit is that the browser (the most common client) natively understands it, and almost every server-side language has built-in (or added) support to consume and produce it. Now if the client fetches it from the server over HTTP -- JSON/HTTP (pronounced JSON over HTTP) -- we have an easy and scalable way to exchange data between client and the server.
