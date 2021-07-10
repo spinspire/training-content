@@ -5,11 +5,9 @@ tags: svelte
 weight: -10
 ---
 
-# Svelte
-
 Svelte is a feature-rich yet easy-to-use UI framework to create reactive web UI's. In fact, while most frameworks are implemented as *runtime* libraries, this one is implemented as compiler. Which means it looks at your code at *build-time* and produces runtime code, which makes it more powerful and less heavy.
 
-# Reactivity
+## Reactivity
 
 ```html
 <script>
@@ -34,7 +32,7 @@ And now, teach yourself Svelte with the following resources:
 5. [Video: Beginner's tutorial in JavaScript UI development: with SvelteJS](https://www.youtube.com/watch?v=E5FmzsQWBh0)
 6. [Video: Svelte: project structure and build process fully explained](https://www.youtube.com/watch?v=gNrZbNQglho)
 
-# Main Features of Svelte
+## Main Features of Svelte
 
 1. [templates](https://svelte.dev/docs#Template_syntax) (ability to use JS variables in HTML wrapped in `{}`)
 2. reactive templates (whenever a value changes, it injects code that will re-render parts of the page that use that variable)

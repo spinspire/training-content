@@ -1,11 +1,9 @@
 ---
-title: "`this` keyword"
+title: '"this" keyword'
 author: Brett Causey
 ---
 
-# This Keyword
-
-## What is the "this" keyword in JavaScript?
+## What is the `this` keyword in JavaScript?
 
 - The javascript this keyword refers to an object it belongs to.
 - "this" by itself refers to the global object and inside of a function "this" is undefined.

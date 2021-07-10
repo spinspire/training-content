@@ -3,8 +3,6 @@ title: Logical Operators
 author: Christian Crawford
 ---
 
-# Logical Operators
-
 In JavsScript conditions can be combined using and/or logic. 
 
 ### OR 

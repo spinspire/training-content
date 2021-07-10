@@ -3,8 +3,6 @@ title: Variable Declarations
 author: Brett Causey
 ---
 
-# Variable Declarations
-
 ## What are variable declarations?
 
 - A variable declaration gives a name and a data type for the variable.

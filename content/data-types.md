@@ -5,9 +5,8 @@ references:
   - text: Javascript data types
     url: https://real-kevbot.medium.com/javascript-primitive-data-types-63993054314f
 ---
-# Data Types
 
-Javascript is a loosly types language and, like many languages, contains primitive and non-primitive types.
+Javascript is a loosly typed language and, like many languages, contains primitive and non-primitive types.
 
 ### Primitives
   In JavaScript primitives are defined as "data that is not on object and has no methods". The values themselves cannot have methods and are therefore immutable. They can only be altered by re-assignment.

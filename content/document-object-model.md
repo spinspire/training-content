@@ -1,5 +1,5 @@
 ---
-title: Document Object Model
+title: Document Object Model (DOM)
 author: Christian Crawford
 tags: dhtml
 weight: -1
@@ -10,7 +10,6 @@ references:
     url: https://en.wikipedia.org/wiki/Document_Object_Model
 ---
 
-# Document Object Model (DOM)
 The DOM is a hierarcirical representation of the HTML (and XML) of a page. It is represented as a tree with brances that end in nodes. These nodes can be manipulated to change the style, structure, and content of the document.
 
 The DOM was designed to be independent of any one language, although it's most often used by JavaScript. The DOM API was created so that there would be a common, consistent way to interacting with it.

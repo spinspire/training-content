@@ -3,8 +3,6 @@ title: Conditional Statements and Loops
 author: Christian Crawford
 ---
 
-# Conditional Statements and Loops
-
 ## Conditional Statements
 When you want to execute code only under certain circumstances you should use conditional statements.
 ### If statement

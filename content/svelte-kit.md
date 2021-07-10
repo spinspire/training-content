@@ -4,8 +4,6 @@ author: Jitesh Doshi
 tags: svelte
 ---
 
-# Svelte Kit
-
 [Svelte Kit](https://kit.svelte.dev) is an extension to Svelte that does these very important tasks:
 
 1. Provide client-side, in-browser [routing](https://kit.svelte.dev/docs#routing).

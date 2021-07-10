@@ -5,10 +5,9 @@ eleventyExcludeFromCollections: true
 sections:
   untagged: Language fundamentals
   dhtml: DHTML (Dynamic HTML)
+  ajax: AJAX
   svelte: Svelte
 ---
-
-# Practical JavaScript App Development
 
 *The fastest way from zero to JavaScript apps*
 
