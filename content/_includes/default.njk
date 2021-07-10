@@ -34,8 +34,8 @@ weight: 0
     {% if references %}
       <h5>References</h5>
       <ul>
-      {% for ref in references %}
-        <li><a href="{{ ref.url }}" target="_blank">{{ ref.text }}</a></li>
+      {% for text, url in references %}
+        <li><a href="{{ url }}" target="_blank">{{ text }}</a></li>
       {% endfor %}
       </ul>
     {% endif %}

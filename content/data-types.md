@@ -2,8 +2,7 @@
 title: Data Types
 author: Christian Crawford
 references:
-  - text: Javascript data types
-    url: https://real-kevbot.medium.com/javascript-primitive-data-types-63993054314f
+  "Javascript data types": https://real-kevbot.medium.com/javascript-primitive-data-types-63993054314f
 ---
 
 Javascript is a loosly typed language and, like many languages, contains primitive and non-primitive types.

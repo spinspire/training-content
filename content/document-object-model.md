@@ -4,10 +4,8 @@ author: Christian Crawford
 tags: dhtml
 weight: -1
 references:
-  - text: "MDN: Intro to DOM"
-    url: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
-  - text: "Wikipedia: Docuemnt Object Model"
-    url: https://en.wikipedia.org/wiki/Document_Object_Model
+  "MDN: Intro to DOM": https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+  "Wikipedia: Docuemnt Object Model": https://en.wikipedia.org/wiki/Document_Object_Model
 ---
 
 The DOM is a hierarcirical representation of the HTML (and XML) of a page. It is represented as a tree with brances that end in nodes. These nodes can be manipulated to change the style, structure, and content of the document.

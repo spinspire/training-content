@@ -2,10 +2,8 @@
 title: Objects, Arrays, and Destructuring
 author: Jitesh Doshi
 references:
-  - text: "MDN: JavaScript Arrays"
-    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-  - text: "MDN: JavaScript Objects"
-    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+  "MDN: JavaScript Arrays": https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+  "MDN: JavaScript Objects": https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 ---
 
 Aside from primitive (scalar) data types (`string`, `number`, `boolean`, etc), JavaScript also has objects and arrays. These are container type that contain other data belonging to other data types -- including other primitive as well as container types.
