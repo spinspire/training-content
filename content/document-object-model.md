@@ -8,12 +8,12 @@ references:
   "Wikipedia: Docuemnt Object Model": https://en.wikipedia.org/wiki/Document_Object_Model
 ---
 
-The DOM is a hierarcirical representation of the HTML (and XML) of a page. It is represented as a tree with brances that end in nodes. These nodes can be manipulated to change the style, structure, and content of the document.
+The DOM is a hierarchical representation of the HTML (and XML) of a page. It is represented as a tree with branches that end in nodes. These nodes can be manipulated to change the style, structure, and content of the document.
 
 The DOM was designed to be independent of any one language, although it's most often used by JavaScript. The DOM API was created so that there would be a common, consistent way to interacting with it.
 
 ## Common DOM API Interfaces
-This list below is not exhastive, and other common interfaces will be discussed in later DOM related lessions.
+This list below is not exhaustive, and other common interfaces will be discussed in later DOM related lessions.
   ### document.querySelector(*selector*)
   Finds and returns the first element that matches the given selector
   ```javascript
