@@ -2,6 +2,10 @@
 title: Getting started and Setup
 author: Jitesh Doshi
 weight: -10
+references:
+  "MDN: HTML": https://developer.mozilla.org/en-US/docs/Web/HTML
+  "MDN: CSS": https://developer.mozilla.org/en-US/docs/Web/CSS
+  "MDN: JavaScript": https://developer.mozilla.org/en-US/docs/Web/JavaScript
 ---
 
 ## Setup
