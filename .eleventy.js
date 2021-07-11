@@ -1,7 +1,10 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(syntaxHighlight, {
+    // see https://github.com/11ty/eleventy-plugin-syntaxhighlight/issues/10
+    alwaysWrapLineHighlights: true,
+  });
   // requires opt-in for 0.x
   eleventyConfig.setDataDeepMerge(true);
   // copy as-is to output
