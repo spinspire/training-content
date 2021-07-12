@@ -1,10 +1,20 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const slugify = require("slugify");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addFilter("slug", (str) => {
+    return slugify(str, {
+      lower: true,
+      strict: true,
+      remove: /["]/g,
+    });
+  });
   eleventyConfig.addPlugin(syntaxHighlight, {
     // see https://github.com/11ty/eleventy-plugin-syntaxhighlight/issues/10
     alwaysWrapLineHighlights: true,
   });
+  // shortcode example:
+  // eleventyConfig.addShortcode("stcd", (p1) => `<p>ShortCode ${p1}</p>`);
   // requires opt-in for 0.x
   eleventyConfig.setDataDeepMerge(true);
   // copy as-is to output
