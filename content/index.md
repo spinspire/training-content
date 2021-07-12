@@ -8,6 +8,7 @@ references:
   "MDN: JavaScript": https://developer.mozilla.org/en-US/docs/Web/JavaScript
 eleventyExcludeFromCollections: true
 sections:
+  start: Getting Started
   untagged: Language fundamentals
   dhtml: DHTML (Dynamic HTML)
   ajax: AJAX
