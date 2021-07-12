@@ -1,7 +1,7 @@
 ---
 title: Setup
 author: Jitesh Doshi
-tags: start
+category: start
 weight: -10
 ---
 

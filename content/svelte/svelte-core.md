@@ -1,7 +1,7 @@
 ---
 title: Svelte
 author: Jitesh Doshi
-tags: svelte
+category: svelte
 weight: -10
 ---
 

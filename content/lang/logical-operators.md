@@ -1,6 +1,7 @@
 ---
 title: Logical Operators
 author: Christian Crawford
+category: language
 ---
 
 In JavsScript conditions can be combined using and/or logic. 

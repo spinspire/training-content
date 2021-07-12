@@ -1,7 +1,7 @@
 ---
 title: First Project
 author: Jitesh Doshi
-tags: start
+category: start
 references:
   "MDN: HTML": https://developer.mozilla.org/en-US/docs/Web/HTML
   "MDN: CSS": https://developer.mozilla.org/en-US/docs/Web/CSS

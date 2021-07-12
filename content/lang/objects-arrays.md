@@ -1,6 +1,7 @@
 ---
 title: Objects, Arrays, and Destructuring
 author: Jitesh Doshi
+category: language
 references:
   "MDN: JavaScript Arrays": https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
   "MDN: JavaScript Objects": https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object

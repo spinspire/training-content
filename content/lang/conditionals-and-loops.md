@@ -1,6 +1,7 @@
 ---
 title: Conditional Statements and Loops
 author: Christian Crawford
+category: language
 ---
 
 ## Conditional Statements

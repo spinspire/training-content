@@ -1,6 +1,7 @@
 ---
 title: Variable Declarations
 author: Brett Causey
+category: language
 ---
 
 ## What are variable declarations?

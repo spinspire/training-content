@@ -19,10 +19,17 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
   // copy as-is to output
   eleventyConfig.addPassthroughCopy("static");
-  eleventyConfig.addCollection("untagged", function (collection) {
-    const all = collection.getAll();
-    const untagged = all.filter(page => page.data.tags === undefined);
-    return untagged;
+  eleventyConfig.addCollection("category", function (collection) {
+    return collection.getAll()
+      // .sort((a, b) => a.weight - b.weight) // didn't work
+      .reduce(
+        (accum, iter) => ({
+          ...accum,
+          [iter.data.category]: [
+            ...(accum[iter.data.category] || []),
+            iter,
+          ]
+        }), {});
   });
 
   return {

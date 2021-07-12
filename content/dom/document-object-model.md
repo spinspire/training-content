@@ -1,7 +1,7 @@
 ---
 title: Document Object Model (DOM)
 author: Christian Crawford
-tags: dhtml
+category: dhtml
 weight: -1
 references:
   "MDN: Intro to DOM": https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction

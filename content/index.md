@@ -7,9 +7,9 @@ references:
   "MDN: CSS": https://developer.mozilla.org/en-US/docs/Web/CSS
   "MDN: JavaScript": https://developer.mozilla.org/en-US/docs/Web/JavaScript
 eleventyExcludeFromCollections: true
-sections:
+categories:
   start: Getting Started
-  untagged: Language fundamentals
+  language: Language fundamentals
   dhtml: DHTML (Dynamic HTML)
   ajax: AJAX
   svelte: Svelte
@@ -27,8 +27,9 @@ Okay, the idea is to quickly get to a point when you can write full-stack web ap
 
 # Modules
 
-{% for key, label in sections %}
+{% for key, label in categories %}
 - {{ label }}
-  {% for page in collections[key] | sort(false, false, 'data.weight') %}- [{{ page.data.title }}]({{ page.url | url }})
+  {% for page in collections.category[key] | sort(false, false, 'data.weight') -%}
+  - [{{ page.data.title }}]({{ page.url | url }})
   {% endfor %}
 {% endfor %}

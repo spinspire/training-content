@@ -1,7 +1,7 @@
 ---
 title: JSON (JavaScript Object Notation)
 author: Jitesh Doshi
-tags: ajax
+category: ajax
 weight: -1
 ---
 

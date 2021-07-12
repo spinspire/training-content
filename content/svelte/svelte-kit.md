@@ -1,7 +1,7 @@
 ---
 title: Svelte Kit
 author: Jitesh Doshi
-tags: svelte
+category: svelte
 ---
 
 [Svelte Kit](https://kit.svelte.dev) is an extension to Svelte that does these very important tasks:

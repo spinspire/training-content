@@ -1,7 +1,7 @@
 ---
 title: Attributes and Properties 
 author: Christian Crawford
-tags: dhtml
+category: dhtml
 ---
 
 Elements (nodes) of the DOM often have attributes and properties associated with them. Both values serve similar purposes and often have identical or at least similar names.  The browser parses the HTML of the page and generates the DOM. Attributes will automatically be converted to their corrisponding property (if one exists).

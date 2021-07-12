@@ -1,6 +1,7 @@
 ---
 title: Functions, Lambdas, IIFE, and pass-by-value
 author: Jitesh Doshi
+category: language
 references:
   "MDN: Function Expression": https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function
   "MDN: IIFE": https://developer.mozilla.org/en-US/docs/Glossary/IIFE

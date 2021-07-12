@@ -1,6 +1,7 @@
 ---
 title: Data Types
 author: Christian Crawford
+category: language
 references:
   "Javascript data types": https://real-kevbot.medium.com/javascript-primitive-data-types-63993054314f
 ---

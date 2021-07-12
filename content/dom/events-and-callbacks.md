@@ -1,7 +1,7 @@
 ---
 title: DOM events and callbacks
 author: Jitesh Doshi
-tags: dhtml
+category: dhtml
 weight: 5
 references:
   "MDN: DOM events": https://developer.mozilla.org/en-US/docs/Web/Events

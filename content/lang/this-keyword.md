@@ -1,6 +1,7 @@
 ---
 title: '"this" keyword'
 author: Brett Causey
+category: language
 ---
 
 ## What is the `this` keyword in JavaScript?

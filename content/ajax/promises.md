@@ -1,7 +1,7 @@
 ---
 title: Promise API
 author: Jitesh Doshi
-tags: ajax
+category: ajax
 weight: 1
 references:
   "MDN: Promise API": https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
