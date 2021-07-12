@@ -30,3 +30,14 @@ code .highlight-line:before {
   text-align: right;
   width: 2.4em;
 }
+
+/* 
+ * section numbers for "h2" tags
+body {
+  counter-reset: sectionNumber;
+}
+h2:before {
+  counter-increment: sectionNumber;
+  content: counter(sectionNumber) ". ";
+}
+ */
