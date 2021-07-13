@@ -1,6 +1,11 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const slugify = require("slugify");
 
+const input = "content";
+const output = "dist";
+const pathPrefix = '/learn';
+const assetExts = "png,jpg,jpeg,svg,pdf,css";
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("slug", (str) => {
     return slugify(str, {
@@ -19,6 +24,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
   // copy as-is to output
   eleventyConfig.addPassthroughCopy("static");
+  eleventyConfig.addPassthroughCopy(`${input}/**/*.{${assetExts}}`);
   eleventyConfig.addCollection("category", function (collection) {
     return collection.getAll()
       // .sort((a, b) => a.weight - b.weight) // didn't work
@@ -34,10 +40,10 @@ module.exports = function (eleventyConfig) {
 
   return {
     dir: {
-      input: "content",
-      output: "dist",
+      input,
+      output,
     },
-    pathPrefix: '/learn',
+    pathPrefix,
     markdownTemplateEngine: "njk",
   };
 };
