@@ -57,4 +57,4 @@ Or a nicer way to do the same using async/await, and IIFE
 })();
 ```
 
-If something doesn't make sense above, then see the [Promise API](../promises) module also, along with the references.
+If something doesn't make sense above, then see the [Promise API](promises) module also, along with the references.

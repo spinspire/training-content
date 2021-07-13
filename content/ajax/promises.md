@@ -44,7 +44,7 @@ The basic steps to create a Promise are:
 3. The callback performs some asynchronous activity and calls the supplied `resolve` or `reject` at appropriate time depending on if it wants to return success or failure.
 4. Now the promise can be combined with `then`/`catch` or `async`/`await` (see below)
 
-So, in short, Promise API allows you to define non-blocking functions that take some time, and can be chained with `then` to handle the return value when the `resolve` or with `catch` to handle the error when they `reject`. This gets even better and easier when you use the [`async`/`await` language features](../async-await), as shown below:
+So, in short, Promise API allows you to define non-blocking functions that take some time, and can be chained with `then` to handle the return value when the `resolve` or with `catch` to handle the error when they `reject`. This gets even better and easier when you use the [`async`/`await` language features](async-await), as shown below:
 
 ```javascript
 (async function() {

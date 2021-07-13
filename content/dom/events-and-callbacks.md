@@ -46,7 +46,7 @@ Here's a simple example:
 
 ## Form Submit Example
 
-In modern JavaScript apps, it is very common to convert a traditional `form` from submitting normally (and refreshing the whole page) to intercepting the submission, performing client-side validations, and then sending form inputs to server using [AJAX](../../ajax/async-http-requests) and handling the response, all without refreshing the page. So let's give that a try.
+In modern JavaScript apps, it is very common to convert a traditional `form` from submitting normally (and refreshing the whole page) to intercepting the submission, performing client-side validations, and then sending form inputs to server using [AJAX](../ajax/async-http-requests) and handling the response, all without refreshing the page. So let's give that a try.
 
 1.  Create a `form` with some inputs and an `ol` to show the submissions. Feel free to change the inputs from what is shown below.
     ```html
