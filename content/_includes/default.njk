@@ -22,9 +22,9 @@ weight: 0
 <body>
 
   <div class=" bg-dark text-white">
-  <header class="container d-flex align-items-center">
+  <header class="container d-flex align-items-center mb-4">
     <a href={{ '/' | url }}><img src="{{ '/logo.png' | url }}" alt="SpinSpire logo"></a>
-    <h1>{{ title }}</h1>
+    <h1 class="text-truncate">{{ title }}</h1>
   </header>
   </div>
 
@@ -43,7 +43,7 @@ weight: 0
 
   <div class="bg-dark text-white">
     <footer class="container">
-      <div>
+      <div class="text-truncate">
         <span class="copyright">Copyright &copy; <a href="https://spinspire.com">SpinSpire</a></span>
         {% if author %}
         ; <span class="author">Author: {{ author }}</span>
