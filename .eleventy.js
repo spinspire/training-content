@@ -23,8 +23,9 @@ module.exports = function (eleventyConfig) {
   // requires opt-in for 0.x
   eleventyConfig.setDataDeepMerge(true);
   // copy as-is to output
-  eleventyConfig.addPassthroughCopy("static");
-  eleventyConfig.addPassthroughCopy(`${input}/**/*.{${assetExts}}`);
+  const assets = `${input}/**/*.{${assetExts}}`;
+  eleventyConfig.addWatchTarget(assets);
+  eleventyConfig.addPassthroughCopy(assets);
   eleventyConfig.addCollection("category", function (collection) {
     return collection.getAll()
       // .sort((a, b) => a.weight - b.weight) // didn't work
