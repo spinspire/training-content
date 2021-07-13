@@ -8,10 +8,9 @@ main {
   min-height: calc(100vh - 4.8rem);
 }
 
-h1 {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+/* remove extra spacing due to paragraphs inside lists */
+li p {
+  margin-bottom: 0;
 }
 
 /* 
