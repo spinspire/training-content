@@ -46,7 +46,8 @@ weight: 0
       <div class="text-truncate">
         <span class="copyright">Copyright &copy; <a href="https://spinspire.com">SpinSpire</a></span>
         {% if author %}
-        ; <span class="author">Author: {{ author }}</span>
+        {# HACK: differentiate between string vs array using existence of a method that only string would have #}
+        ; <span class="author">Author: {{ author if author.toLowerCase  else author | join(", ") }}</span>
         {% endif %}
       </div>
     </footer>
