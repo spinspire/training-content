@@ -1,7 +1,7 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const slugify = require("slugify");
 
-const input = "content";
+const input = "src";
 const output = "dist";
 const pathPrefix = '/learn';
 const assetExts = "png,jpg,jpeg,svg,pdf,css";
