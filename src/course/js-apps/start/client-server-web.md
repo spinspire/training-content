@@ -13,7 +13,7 @@ references:
 
 Client-server computing is a model of software design in which you write two separate programs - a client and a server. They typically run on different machines and communicate with each other over a network to accomplish the system's purpose.
 
-[TODO: DIAGRAM]
+![Client Server Diagram](client-server.svg)
 
 | Client      | Server |
 | ----------- | ----------- |
