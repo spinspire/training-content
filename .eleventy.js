@@ -39,6 +39,15 @@ module.exports = function (eleventyConfig) {
         }), {});
   });
   
+  eleventyConfig.addCollection("videos", function (collection) {
+    return collection.getAll()
+      .reduce(
+        (videos, page) => ({
+          ...videos,
+          [page.data.ytvid]: page
+        }), {});
+  });
+
   return {
     dir: {
       input,
