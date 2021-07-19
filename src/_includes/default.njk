@@ -7,8 +7,8 @@ weight: 0
 <head>
   {# set "base" to ".." in order to make relative URL's work (because foo/bar.md ends up in foo/bar/index.html) #}
   {% if page.url.match(r/\//g).length !== page.filePathStem.match(r/\//g).length %}
-    {# if the number of slashes (/) in filePathStem and url are unequal, then use ".." as base #}
-    <base href=".." >
+  {# if the number of slashes (/) in filePathStem and url are unequal, then use ".." as base #}
+  <base href="..">
   {% endif %}
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,13 +22,22 @@ weight: 0
 <body>
 
   <div class=" bg-dark text-white">
-  <header class="container d-flex align-items-center mb-4">
+  <header class="container d-flex align-items-center">
     <a href={{ '/' | url }}><img src="{{ '/logo.png' | url }}" alt="SpinSpire logo"></a>
     <h1 class="text-truncate">{{ title }}</h1>
   </header>
   </div>
 
-  <main class="container">
+  {%if ytvid %}
+  <div class="ytvid-wrapper">
+    <iframe class="ytvid" name="ytvid" width="560" height="315" src="https://www.youtube.com/embed/{{ytvid}}"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  {% endif %}
+
+  <main class="container mt-4">
     {{ content | safe }}
     <hr>
     {% if references %}
@@ -47,7 +56,7 @@ weight: 0
         <span class="copyright">Copyright &copy; <a href="https://spinspire.com">SpinSpire</a></span>
         {% if author %}
         {# HACK: differentiate between string vs array using existence of a method that only string would have #}
-        ; <span class="author">Author: {{ author if author.toLowerCase  else author | join(", ") }}</span>
+        ; <span class="author">Author: {{ author if author.toLowerCase else author | join(", ") }}</span>
         {% endif %}
       </div>
     </footer>

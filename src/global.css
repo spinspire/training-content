@@ -40,3 +40,16 @@ h2:before {
   content: counter(sectionNumber) ". ";
 }
  */
+
+.ytvid-wrapper {
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+iframe.ytvid {
+  box-shadow: 0 0 1rem gray;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
