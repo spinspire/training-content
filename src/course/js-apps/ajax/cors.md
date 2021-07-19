@@ -83,5 +83,3 @@ const headers = {
 };
 fetch(url, headers); // this will make a fetch request to the api with the specified url and the specific headers.
 ```
-
-## To be continued.
