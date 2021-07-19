@@ -4,7 +4,7 @@ This is the source repo for training content produced by SpinSpire team. The cou
 
 It uses the follwing:
 
-- [markdown](https://www.markdownguide.org/) (*.md) is the source format, which is a text-like format that gets converted to HTML files during build
+- [markdown](https://www.markdownguide.org/) (\*.md) is the source format, which is a text-like format that gets converted to HTML files during build
 - [11ty](https://www.11ty.dev/) is the static site generator
 - [Nunjucks templating language](https://mozilla.github.io/nunjucks/) is used for layouts and sometimes NJK is included in the markdown files themselves (although that should be minimized)
 - [Bootstrap](https://getbootstrap.com/docs/5.0/) is the CSS framework to make the HTML look pretty
@@ -23,9 +23,9 @@ pnpm run build #compile for deployment
 
 ## How to write content
 
-- Create/update modules in *.md files in `src` directory
+- Create/update modules in \*.md files in `src` directory
   - Use VS Code and it's "Markdown All in One" extension
-  - Run the `pnpm start` live server above to see changes in real-time
+  - Run the `pnpm dev` live server above to see changes in real-time
   - You could also use the <kbd>Ctr-Shift-V</kbd> or <kdb>Cmd-Shift-V</kbd> to preview markdown rendering within VS Code
 - Add the `category` field in front-matter
 - If you invent new `category` then don't forget to also add it to `index.md` front-matter `categories` field
