@@ -1,0 +1,1808 @@
+{
+  "videos": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LhGts49QfLgR2lAaREZut6nnwho",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "t6Azbr79ue0"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-16T04:00:23Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "live coding: Chrome/Firefox extensions and userscripts in Svelte",
+        "description": "Learn how to write browser extensions for Chrome/Firefox/Edge/Opera etc using Svelte. How to customize any website or even scrape it using \"client-side ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/t6Azbr79ue0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/t6Azbr79ue0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/t6Azbr79ue0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-16T04:00:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NlsJQv34cdd6qnUKf0nq_yokByA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wH3H8uUVMN4"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-18T05:00:11Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "block page refresh/navigation in Svelte if form fields unsaved (using stores and actions)",
+        "description": "Learn how to prevent page unloading and navigation when the user has made changes to form input field. This video uses Svelte stores to reflect form change ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wH3H8uUVMN4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wH3H8uUVMN4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wH3H8uUVMN4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-18T05:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Sr2wF7aJUc4_hlltEHFOtwITUR4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "L0Jtf4g0K40"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-01T05:00:05Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Drupal &quot;component&quot; module: part 3: using Svelte UI framework/compiler",
+        "description": "This video shows how to use Svelte to create custom elements / web components and use it with Drupal's \"component\" module. Detailed notes here: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/L0Jtf4g0K40/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/L0Jtf4g0K40/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/L0Jtf4g0K40/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-01T05:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oirlNVFQUChjmUve0turSB3B2Ew",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ynJDVFHsEzU"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-30T05:00:09Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Drupal &quot;component&quot; module: part 2: custom HTML tags (web-components)",
+        "description": "This video shows how to use the \"component\" module of Drupal to embed your JavaScript/HTML/CSS apps into Drupal pages as blocks and then create your ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ynJDVFHsEzU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ynJDVFHsEzU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ynJDVFHsEzU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-30T05:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wANdy0LrIi8TUteqr6_ScCoX3g8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SWA8d83j__I"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-28T05:00:04Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Drupal &quot;component&quot; module: part 1: JS apps as Blocks",
+        "description": "This video shows how to use the \"component\" module of Drupal to embed your JavaScript/HTML/CSS apps into Drupal pages as blocks. Detailed notes here: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SWA8d83j__I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SWA8d83j__I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SWA8d83j__I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-28T05:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "smVg4MtHeMf5yKpBMO0EbTesXv8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ip_S569ij8k"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-10T05:00:06Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "docker-compose intro tutorial: full application stacks",
+        "description": "docker-compose: A great devops tool. Lets you combine multiple containers into a set, mount volumes, forward ports, set env vars, container labels and much ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ip_S569ij8k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ip_S569ij8k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ip_S569ij8k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-10T05:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fYcLkqbsyuQEM0F8S9DTQjqbf4Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hswwTQ5-qvQ"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-09T05:00:07Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "docker intro tutorial: run programs in isolation (containerized)",
+        "description": "docker - a way to run programs in a container (isolated from host) Notes: https://hub.docker.com/_/mariadb https://hub.docker.com/_/php docker run mariadb:10 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hswwTQ5-qvQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hswwTQ5-qvQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hswwTQ5-qvQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-09T05:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "L2zgeFekqxFaimjlOooXrwGgL00",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oaDNDMMO4hE"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-08T05:00:10Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "tutorial: ssh tools for remote operations",
+        "description": "Show notes: https://docs.google.com/document/d/13KYZ9rNR52cM1SLqjYl4wPgb7j7HlnaYoBzJ04RvWD8/edit For questions, post a comment. For business ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oaDNDMMO4hE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oaDNDMMO4hE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oaDNDMMO4hE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-08T05:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fAo8F2HAznWQ1RZErt7GJp3bnCg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JfO6dtkuMgM"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-06T05:00:10Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "tutorial: vim/vi survival guide: editor basics",
+        "description": "Show notes: https://docs.google.com/document/d/1iVPb94HisQ0jimVupOG5BOnSrjwXWcdJY2Vm7VWPZHM/edit For questions, post a comment. For business ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JfO6dtkuMgM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JfO6dtkuMgM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JfO6dtkuMgM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-06T05:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aBTZXVFXEr7F4Y3bme_3OhEMH10",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qpae2Hzjy-g"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-06T05:00:07Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "common Linux commands every developer must know",
+        "description": "Show notes: https://docs.google.com/document/d/1srbOIBhVU9FMWsIuxXfQ2W9xSUlK0NDOUdYhS1_jkVo/edit For questions, post a comment. For business ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qpae2Hzjy-g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qpae2Hzjy-g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qpae2Hzjy-g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-06T05:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cM8SIUPBvG8esTzTMwX49fdxqQM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vT2GQAQtQNo"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-06T05:00:26Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Shell command line keyboarding skills for developer productivity",
+        "description": "Show notes: https://docs.google.com/document/d/1Y95-NUMG7p44Wk8H3-nnbMm71kBacCtgTTltOEets-w/edit For questions, post a comment. For business ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vT2GQAQtQNo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vT2GQAQtQNo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vT2GQAQtQNo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-06T05:00:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gsobIcT6e38q2uiuBhkXzBC2yeQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dOZJXSGjfF0"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-16T05:00:04Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "compare Svite/Vite vs Snowpack &quot;unbundlers&quot; for FAST Svelte development",
+        "description": "Comparison between fast, unbundled Svelte development with Svite/Vite v/s Snowpack - two dev ES6/JSX to JS transpiler runners.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dOZJXSGjfF0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dOZJXSGjfF0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dOZJXSGjfF0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-16T05:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aRHQdFbSvl2kHSPllobcLbZ7Ii0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "x5df1rMzEiM"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-24T04:00:07Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Svelte presentation at JaxNode, August 2020",
+        "description": "I presented to Jacksonville NodeJS group why learn Svelte, how to learn Svelte, and demo'd some of the awesomeness of Svelte. This is a recording of that ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x5df1rMzEiM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x5df1rMzEiM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x5df1rMzEiM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-24T04:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6DVXTECQFYTlm9mVVdj57UJJtYQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tkQgX5QbWdg"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-17T04:00:07Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "svelte tab component from scratch: using slots, stores, and context",
+        "description": "Learn how to build UI tab component from scratch in SvelteJS using slots, stores, and context. Source code: https://bitbucket.org/spinspire/svelte-tabs For ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tkQgX5QbWdg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tkQgX5QbWdg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tkQgX5QbWdg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-17T04:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gJhBS9f1HL2F6Dd7HsKXhnREzeE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tO61qnGZer0"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-06T04:00:09Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "build svelte modal dialog from scratch",
+        "description": "How to build a modal dialog box from scratch in Svelte, with a little help from CSS. Source code: https://bitbucket.org/spinspire/svelte-modal/ TOC/Index 00:00 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tO61qnGZer0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tO61qnGZer0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tO61qnGZer0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-06T04:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "n0c0cacyGEncIgx25vTEYiRSB_Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_HZdLuGL8Ho"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-29T04:00:05Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "generate downloadable files in the browser using Blob and URL API",
+        "description": "Shows how to create CSV, TXT, PDF, ICS/iCal, etc files right within the browser without ever hitting server-side. Uses the Blob API to build files in the browser ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_HZdLuGL8Ho/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_HZdLuGL8Ho/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_HZdLuGL8Ho/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-29T04:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3eO3WJmj7i0WNoNFI9MUxdfRiF0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CsEPsFrBQ94"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-04T04:00:02Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Why learn Svelte? Business, technical, and personal reasons.",
+        "description": "Why should you learn Svelte? This video gives you Business, technical, and personal justification. First convince yourself, and then convince your boss or your ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CsEPsFrBQ94/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CsEPsFrBQ94/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CsEPsFrBQ94/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-04T04:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Uvld2yQKjty5U6zOigXppxqx8yE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hoGsNORT2b0"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-31T23:00:09Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "How to learn Svelte? Roadmap for getting started (Google Presentation Doc included).",
+        "description": "A complete guide to getting started with learning Svelte. Link to all the mentioned resources are in this doc ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hoGsNORT2b0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hoGsNORT2b0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hoGsNORT2b0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-31T23:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mgwWYM1_rpjQqyz3P8wd_iSs1ys",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "y3MnNpcok-0"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-15T04:00:30Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Svelte stores for auto detecting running AJAX requests and show Spinners with CSS animations",
+        "description": "Implement AJAX counters (as stores) & spinners for Svelte using CSS animations, Svelte stores, and general purpose JavaScript wrapper functions that ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y3MnNpcok-0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y3MnNpcok-0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y3MnNpcok-0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-15T04:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xhMi6FoQPfQEXspoHJlZI2A0Xpk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EHikjXtRp_k"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-06T04:00:03Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "call non-CORS REST APIs over AJAX with CORS proxy server (includes Svelte+Rollup setup)",
+        "description": "Learn how to run a CORS proxy locally to make AJAX requests to a REST API that is not CORS-ready. Browsers enforce Same-Origin-Policy on AJAX requests ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EHikjXtRp_k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EHikjXtRp_k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EHikjXtRp_k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-06T04:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tyFSF-7LzTUIUfmtPoK_Y5gWRJ8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "712uRGL8GOM"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-25T04:00:00Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "live code: svelte + rollup.config + package.json step-by-step, from scratch, by hand",
+        "description": "Learn how to write rollup bundling config for Svelte app from scratch, by hand, step-by-step understanding each line you add and why you add it, without ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/712uRGL8GOM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/712uRGL8GOM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/712uRGL8GOM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-25T04:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nMUGttE1ZKzSUZXrGoz2P3_m-xM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FKNc9A8u2oE"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-20T04:00:05Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "live code: lazy loaded &amp; responsive images in Svelte with svelte-image module",
+        "description": "Make your Svelte applications faster, cheaper and more pleasant to users with responsive and lazy loaded images using \"svelte-images\" npm module. And once ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FKNc9A8u2oE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FKNc9A8u2oE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FKNc9A8u2oE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-20T04:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "izZd_xM26GhW0Zixc3koyk3WSG0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "r-CKDB8Uk3w"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-16T07:00:16Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Svelte reactive declarations and &quot;tick&quot; synch&#39;ing",
+        "description": "Shows what reactive declarations (reactivity in JavaScript) are in Svelte, how reactive updates are asynchronous, and how \"await tick()\" helps synchronize with ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/r-CKDB8Uk3w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/r-CKDB8Uk3w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/r-CKDB8Uk3w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-16T07:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "X06ccQzi0au_shmNOG_ELfuj_GM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Q9SORzBdpdA"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-04T20:30:00Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "live code: Svelte Firebase realtime photo guestbook - image upload with in-browser resize",
+        "description": "Shows how to write a photo guestbook with SvelteJS, Firebase, store data in firestore, upload images to Firebase storage, resize images in the browser, and see ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Q9SORzBdpdA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Q9SORzBdpdA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Q9SORzBdpdA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-04T20:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qHEmwwMVMDSqqXK4ZwK58TSMBjg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HX5cqBkNJA0"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-25T01:00:00Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "live code: Svelte app showing realtime Postgres data changes (GraphQL subscriptions)",
+        "description": "We live code a Svelte app to show realtime queries (subscriptions) to Postgres data over GraphQL using Hasura. The data changes in the database and the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HX5cqBkNJA0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HX5cqBkNJA0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HX5cqBkNJA0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-25T01:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "znCupPS-NK28gS6C83Uz7O8QBbk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "78YtoHGU_Sg"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-23T17:48:37Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Insanely fast mobile sites with Svelte, GraphQL and Drupal | Florida DrupalCamp 2020",
+        "description": "Presentation by Jitesh Doshi at Florida Drupal Camp: Insanely fast mobile, offline-first, interactive sites with Svelte, Sapper, and Drupal Source code: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/78YtoHGU_Sg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/78YtoHGU_Sg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/78YtoHGU_Sg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-23T17:48:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "p8mqJoc8fMvlx4s-jmf9bGlMx2E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZqJlvL6bC3I"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-21T05:00:12Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Decoupled (headless) Drupal/GraphQL with Svelte &amp; Sapper frontend",
+        "description": "We build a Svelte/Sapper front end to a decoupled/headless Drupal 8 backend communicating over GraphQL. Source: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZqJlvL6bC3I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZqJlvL6bC3I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZqJlvL6bC3I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-21T05:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OefCdNyCJsSONwBpvRzeDYj9lJ0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WFkRfOaygBo"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-16T05:00:04Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Svelte live coding &amp; demo at Jacksonville meetup",
+        "description": "2 hour long detailed talk and demo about Svelte's features and business case (Why Svelte? Technical and Business reasons for using Svelte). Presented by ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WFkRfOaygBo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WFkRfOaygBo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WFkRfOaygBo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-16T05:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aajitS70_C5UhLDW30EHuVzlyYg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AGLUJlOC6f0"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-09T14:05:43Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Svelte SPA routing: Routify tutorial",
+        "description": "How to use Routify with Svelte for client-side (SPA) routing. Source code: https://bitbucket.org/spinspire/svelte-routify-demo/ Index/TOC: 00:00 What's the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AGLUJlOC6f0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AGLUJlOC6f0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AGLUJlOC6f0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-09T14:05:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZKwkzXyxLqN785UFWM1dQpz8nLE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iqUO4_0CAaA"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-05T01:00:03Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Binding DOM to JS variables in Svelte - &quot;bind:this&quot; and &quot;use&quot; directives",
+        "description": "Shows how to access, manipulate, and attach listeners on DOM nodes from Svelte code. Useful for integrating 3rd party JS libraries. \"bind:this\" for simple use ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iqUO4_0CAaA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iqUO4_0CAaA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iqUO4_0CAaA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-05T01:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "47L_BdexD_xDgJq2O-LfEx0glYQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-EwKiLZtnUs"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-02T21:56:56Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "SvelteJS tree component: recursion using &quot;svelte:self&quot;",
+        "description": "Shows how to build a custom Tree UI component using \"svelte:self\" tag, including click event handler that receives custom data context.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-EwKiLZtnUs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-EwKiLZtnUs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-EwKiLZtnUs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-02T21:56:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "crxBEfC2ozZFWChU792YAdPywWY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5KfUUjUBLPY"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-29T11:00:02Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "React vs Svelte comparison: AJAX",
+        "description": "Shows how AJAX is done differently between React and Svelte (Svelte is much simpler) - using a free GeoCoding API to search for a partial address ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5KfUUjUBLPY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5KfUUjUBLPY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5KfUUjUBLPY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-29T11:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qMTIdGIz8ENRxTAy-AynN7hbf1w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "edFp-vuDlLs"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-27T04:00:42Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Client-side (SPA) routing in Svelte",
+        "description": "Shows how to create your own client-side router in Svelte using page.js library + store + context. Source code: https://bitbucket.org/spinspire/svelte-routing-demo ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/edFp-vuDlLs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/edFp-vuDlLs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/edFp-vuDlLs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-27T04:00:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LyhUojVwlpFqt_x-EKQq23syxGs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OhX2823YgVE"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-17T05:12:26Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Introduction to Svelte &amp; Sapper - a presentation at JaxNode",
+        "description": "This is a recording of my talk on Svelte & Sapper that I gave to Jacksonville Node User Group (JaxNode). Source code is at ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OhX2823YgVE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OhX2823YgVE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OhX2823YgVE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-17T05:12:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1Q8Mo357bCQ22sJRJdERAYGSDHM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H8SYYmrhHiE"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-11T05:49:41Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Sapper Svelte SPA - AJAX FORM POST to create database records",
+        "description": "Advanced starter project for Sapper & Svelte based single page apps (SPA) with MongoDB CRUD. Serialize FORM to JSON and POST to create new records.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H8SYYmrhHiE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H8SYYmrhHiE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H8SYYmrhHiE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-11T05:49:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7VqG_VAIJDuFz6FCCB8RZaanF2k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Mey2KZDog_A"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-11T00:43:07Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Sapper Svelte SPA - adding MongoDB persistence",
+        "description": "Starter project for Sapper & Svelte based single page apps (SPA) with MongoDB persistence.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Mey2KZDog_A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Mey2KZDog_A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Mey2KZDog_A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-11T00:43:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zsvml2gjFr2BX0O_X2goj_jdFAY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Th5o6OuwAuw"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-11T00:42:46Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Sapper Svelte SPA - starter project",
+        "description": "Starter project for Sapper & Svelte based single page apps (SPA). See https://bitbucket.org/spinspire/sapper-starter/commits/tag/stage-01 for solution source ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Th5o6OuwAuw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Th5o6OuwAuw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Th5o6OuwAuw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-11T00:42:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9GtPL3EOnfyUoMh6QINFc8WLuKY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gNrZbNQglho"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-18T17:56:02Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Svelte: project structure and build process fully explained",
+        "description": "Explains the role of each file in a Svelte project tree - including rollup.config.js and package.json. For questions, post a comment. For business inquiries: email ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gNrZbNQglho/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gNrZbNQglho/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gNrZbNQglho/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-18T17:56:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tUoh86Xx8j40h3yN1Pi9t0mFGPQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3S8gRzstes4"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-17T14:29:39Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Session 4 - Drupal 8+Git+composer: configuration management workflow",
+        "description": "A live session screencast from July 18, 2017. Shows how to use Git and composer with Drupal 8's configuration management workflow. Command used to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3S8gRzstes4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3S8gRzstes4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3S8gRzstes4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-17T14:29:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-WuWGn3_6W8_uePuAsiJdvYlQ4I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ay-NUULhQFg"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-17T14:29:53Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Session 5 - Drupal 8 RESTful web services",
+        "description": "A live session screencast from July 19, 2017. Shows how to configure Drupal to serve RESTful services that serve content (nodes), users, terms and all the other ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ay-NUULhQFg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ay-NUULhQFg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ay-NUULhQFg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-17T14:29:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UW8dVMNrgC_w2rYBFvfTnP2GfB8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "40IYQLv89I4"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-15T20:40:44Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "RevealJS: Easy, beautiful presentation template in HTML",
+        "description": "Create beautiful presentation slides quickly and easily using my HTML template and Reveal.js. Template file link: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/40IYQLv89I4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/40IYQLv89I4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/40IYQLv89I4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-15T20:40:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IAUI_VfZ2kW2lskG5HBW4sAfdFA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8dAnBxfR_yQ"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-15T06:21:19Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "ReactJS vs SvelteJS comparison by building a FileUpload component in both",
+        "description": "We create the same FileUpload component in ReactJS and Svelte and compare which one is cleaner, feature-rich, and developer-friendly. Source code: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8dAnBxfR_yQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8dAnBxfR_yQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8dAnBxfR_yQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-15T06:21:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HtAmH14MSersBcUahANmdRAa0h0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "E5FmzsQWBh0"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-12T14:56:11Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Beginner&#39;s tutorial in JavaScript UI development: with SvelteJS",
+        "description": "This beginner level screencast tutorial includes ... 00:05 intro 02:18 install npm, npx, yarn, and nodejs 05:46 install vscode (Visual Studio Code) 06:12 create a ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/E5FmzsQWBh0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/E5FmzsQWBh0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/E5FmzsQWBh0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-12T14:56:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "o8rMKVmkCo7F8TQbHus91kppfNM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1vzTVtaI8is"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-13T04:01:59Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "ReactJS/webpack app from scratch, explaining every line of code and config",
+        "description": "This screencast shows not just how to start a ReactJS app from scratch, but more importantly why each line of code or configuration exists and what it does.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1vzTVtaI8is/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1vzTVtaI8is/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1vzTVtaI8is/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-11-13T04:01:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uheqw6otaChS-eewuz43CxkWeDU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wA2IOjdT7Dw"
+      },
+      "snippet": {
+        "publishedAt": "2017-08-14T14:45:11Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Session 3 - JavaScript fundamentals: closures, prototypes, OOP",
+        "description": "A live session screencast from June 22, 2017.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wA2IOjdT7Dw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wA2IOjdT7Dw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wA2IOjdT7Dw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-08-14T14:45:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oLIZiJ2ObUx252vj6rMcse4_8qQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "t6A9beyweZ8"
+      },
+      "snippet": {
+        "publishedAt": "2017-08-14T14:46:06Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Session 6 - Introduction to ReactJS",
+        "description": "A learning session screencast introducing ReactJS programming. ReactJS is a popular framework to implement Web UI's and Single Page Applications (SPA's).",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/t6A9beyweZ8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/t6A9beyweZ8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/t6A9beyweZ8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-08-14T14:46:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dNZaQ3ePtPKbWphE7GYppjBmMl4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UwCX9oPpfPI"
+      },
+      "snippet": {
+        "publishedAt": "2017-08-06T00:37:17Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Rich Web Applications with ReactJS and Drupal 8",
+        "description": "Drupal GovCon 2017 presentation on: Rich Web Applications with ReactJS and Drupal 8 ReactJS is the shiny new JavaScript framework that everybody wants ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UwCX9oPpfPI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UwCX9oPpfPI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UwCX9oPpfPI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-08-06T00:37:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TpIi4IC01LqA9gVQrJUNQiNYVVM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ShTiZk-OvF4"
+      },
+      "snippet": {
+        "publishedAt": "2017-07-26T03:00:02Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Session 2 - Linux network configuration and troubleshooting tools",
+        "description": "A live session screencast from June 21, 2017.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ShTiZk-OvF4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ShTiZk-OvF4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ShTiZk-OvF4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-07-26T03:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lzO2fb2YCANXtEA__mD9z8r_pcM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3Xom1TwI3ns"
+      },
+      "snippet": {
+        "publishedAt": "2017-07-19T03:04:58Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Session 1 - Fundamentals of Web, Internet and TCP/IP programming",
+        "description": "A live session screencast from June 20, 2017.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3Xom1TwI3ns/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3Xom1TwI3ns/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3Xom1TwI3ns/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-07-19T03:04:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zwCSnzIzOBr5fyNDIvKqZsTXHCg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bKyi5yYDKm8"
+      },
+      "snippet": {
+        "publishedAt": "2017-06-18T19:05:01Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Internet and Web Fundamentals for aspiring developers",
+        "description": "See https://spinspire.bitbucket.io/ for related notes. A screencast to teach fundamentals of how the Internet works, the Web works, the domain name system ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bKyi5yYDKm8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bKyi5yYDKm8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bKyi5yYDKm8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-06-18T19:05:01Z"
+      }
+    }
+  ],
+  "playlists": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "S6IqD2_DG8MsZb4seBtb7ZQwssE",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLKUl5gVuvLjiDuV9YGVR4aOxtIvZ-o7l9"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-04T18:34:06Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Developer Tools: Shell, Docker, etc.",
+        "description": "An introductory series about developer tools that every modern developer should know.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qpae2Hzjy-g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qpae2Hzjy-g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qpae2Hzjy-g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-04T18:34:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HarP-7Zq7--tzdLpvz6DbqSY45g",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLKUl5gVuvLjh7l0SDn-BoZtMgN3TDMNPd"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-18T17:59:24Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "SvelteJS series: SpinSpire tutorials and talks",
+        "description": "A series exploring SvelteJS web UI compiler/framework.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/E5FmzsQWBh0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/E5FmzsQWBh0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/E5FmzsQWBh0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-18T17:59:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ccm0VQRbUMbTucFqSUspdpui3Zo",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLKUl5gVuvLjhNad1Wtp2H2FinyRat0g7Q"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-17T14:24:27Z",
+        "channelId": "UCJ4h7utY-IjXKXOUuwmSYXw",
+        "title": "Getting started in Web Development",
+        "description": "Beginner level screencast videos to learn web development for those just starting out. Not much prior web development knowledge needed. Explains everything ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3Xom1TwI3ns/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3Xom1TwI3ns/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3Xom1TwI3ns/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SpinSpire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-17T14:24:27Z"
+      }
+    }
+  ]
+}
