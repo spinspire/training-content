@@ -1,5 +1,5 @@
 ---
-title: (placeholder) CORS (Cross-Origin Resource Sharing)
+title: CORS (Cross-Origin Resource Sharing)
 author: Brett Causey
 category: ajax
 weight: 10
@@ -15,10 +15,10 @@ weight: 10
 
 ### How does CORS work?
 
-1. It relies on an mechanism by which browsers send a pre check or more commonly known as a "pre-flight" request that actually checks that the server will grant access to the request being made.
-2. Our browser will actually send headers that indicate to the server that the cross-origin resourc sharing is allowed.
+1. It relies on a mechanism by which browsers send a pre check or more commonly known as a "pre-flight" request that actually checks that the server will grant access to the request being made.
+2. Our browser will actually send headers that indicate to the server that the cross-origin resource sharing is allowed.
 3. It is meant to restrict access to HTTP request that are initiated by scripts and not a user.
-   - This means that any web app that uses an outside api like the FETCH api can only make http request from the spplications origin and not an outside script.
+   - This means that any web app that uses an outside api like the FETCH api can only make http request from the applications origin and not an outside script.
 
 ### Who uses CORS
 
@@ -29,7 +29,7 @@ weight: 10
 ### Other CORS Functionailty
 
 - When the browser sends a pre-flight request CORS can specify whether or not a client needs to send credentials with request.
-  - Examples of these credentials are Cookies, and Web Tokens
+  - Examples of these credentials are Cookies, and Web Tokens.
 - When a CORS error occurs the results and the reason of that error is not available to JavaScript. The only way to determine the error is to watch the network request in the console and see the response that was sent back with the requests.
 
 ### Scenarios of Access Controls.
@@ -43,7 +43,7 @@ weight: 10
   - HEAD
   - POST
 
-2. If the header is not set automatically by the user-agent connection then it neefs to specified. Here are the potential headers that may need to be set:
+2. If the header is not set automatically by the user-agent connection then it needs to specified. Here are the potential headers that may need to be set:
    - Accept
    - Accept-Language
    - Content-Language
@@ -58,15 +58,15 @@ weight: 10
 
 ### Examples of CORS requests
 
-    ```javascript
-    let request = XMLHttpRequest();
-    let method = "GET";
-    let url = "https://v2.jokeapi.dev/joke/Any";
+```javascript
+let request = XMLHttpRequest();
+let method = "GET";
+let url = "https://v2.jokeapi.dev/joke/Any";
 
-    request.open(method, url);
-    request.send()
-    // this should send a request to retireve a joke from the joke api
-    ```
+request.open(method, url);
+request.send();
+// this should send a request to retireve a joke from the joke api
+```
 
 ### Here is an example of a Header you may send with an requests.
 
@@ -76,7 +76,7 @@ weight: 10
 let url = "https://v2.jokeapi.dev/joke/Any";
 const headers = {
   "Content-Type": "application/json",
-  Authorization: `Bearer 12345`,
+  "Authorization": `Bearer 12345`,
   "Access-Control-Allow-Headers": "Content-Type",
   "Access-Control-Allow-Origin": "*", // the star here allows all origins for a CORS Request
   "Access-Control-Allow-Methods": "OPTIONS,PUT,GET",
