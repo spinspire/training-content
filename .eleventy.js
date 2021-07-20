@@ -5,6 +5,7 @@ const input = "src";
 const output = "dist";
 const pathPrefix = '/learn';
 const assetExts = "png,jpg,jpeg,svg,pdf,css";
+const client = "client/public/build";
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("slug", (str) => {
@@ -26,6 +27,9 @@ module.exports = function (eleventyConfig) {
   const assets = `${input}/**/*.{${assetExts}}`;
   eleventyConfig.addWatchTarget(assets);
   eleventyConfig.addPassthroughCopy(assets);
+  // client app
+  eleventyConfig.addWatchTarget(client);
+  eleventyConfig.addPassthroughCopy({ [client]: "client" } );
   eleventyConfig.addCollection("category", function (collection) {
     return collection.getAll()
       // .sort((a, b) => a.weight - b.weight) // didn't work
