@@ -1,10 +1,10 @@
 import Auth from './Auth.svelte';
 
 new Auth({
-	target: document.getElementById("auth"),
+	target: document.getElementById('auth'),
 	props: {
-		name: 'TheUser'
-	}
+		name: 'TheUser',
+	},
 });
 
 // export default app;
