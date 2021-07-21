@@ -1,7 +1,25 @@
-<script lang="ts">
-	export let name
+<script>
+	export let name;
+	export let loggedIn = false;
+
+	const handleLoginClick = (e) => {
+		loggedIn = loggedIn ? false : true; 
+	};
+
+	const handleRegisterClick = () => {
+		alert('No register behavior.')
+	};
+
 </script>
 
-<main>
-	<div>Hello {name}!</div>
-</main>
+<span>	
+	{#if loggedIn}
+		<span>
+			<p>{name}</p>
+		</span>
+		<button on:click|preventDefault={handleLoginClick}>Log Out</button>	
+	{:else}
+		<button on:click|preventDefault={handleLoginClick}>Login</button>
+		<button on:click|preventDefault={handleRegisterClick}>Register</button>
+	{/if}
+	</span>
