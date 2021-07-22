@@ -10,6 +10,6 @@ SpinSpire developers are some of the best in the industry. They are good communi
 Some of our current offerings:
 hi
 
-- [Courses](course): Complete courses in development and other technical topics
-- [Videos](video): Video screencast tutorials on specific technical topics.
+- [Courses]({{ '/course' | url }}): Complete courses in development and other technical topics
+- [Videos]({{ '/video' | url }}): Video screencast tutorials on specific technical topics.
 - [Articles]({{ site.parent }}/articles): Explainer texts on various technical topics.
