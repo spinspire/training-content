@@ -1,5 +1,7 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const slugify = require("slugify");
+const markdownIt = require('markdown-it')
+const markdownItAttrs = require('markdown-it-attrs')
 
 const input = "src";
 const output = "dist";
@@ -29,7 +31,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy(assets);
   // client app
   eleventyConfig.addWatchTarget(client);
-  eleventyConfig.addPassthroughCopy({ [client]: "client" } );
+  eleventyConfig.addPassthroughCopy({ [client]: "client" });
   eleventyConfig.addCollection("category", function (collection) {
     return collection.getAll()
       // .sort((a, b) => a.weight - b.weight) // didn't work
@@ -42,7 +44,7 @@ module.exports = function (eleventyConfig) {
           ]
         }), {});
   });
-  
+
   eleventyConfig.addCollection("videos", function (collection) {
     return collection.getAll()
       .reduce(
@@ -51,6 +53,14 @@ module.exports = function (eleventyConfig) {
           [page.data.ytvid]: page
         }), {});
   });
+
+  const markdownLib = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true,
+  })
+    .use(markdownItAttrs); // see https://dev.to/giulia_chiola/add-html-classes-to-11ty-markdown-content-18ic
+  eleventyConfig.setLibrary('md', markdownLib)
 
   return {
     dir: {

@@ -13,7 +13,7 @@ references:
 
 Client-server computing is a model of software design in which you write two separate programs - a client and a server. They typically run on different machines and communicate with each other over a network to accomplish the system's purpose.
 
-![Client Server Diagram](client-server.svg)
+![Client Server Diagram](client-server.svg){.foo}
 
 | Client      | Server |
 | ----------- | ----------- |
@@ -21,6 +21,7 @@ Client-server computing is a model of software design in which you write two sep
 | Examples: a web browser, a mobile application, video player | Examples: a web server, database server, file server, video server |
 | Clients typically have a friendly user interface (UI). Thus programming them requires UI or frontend expertise. | Servers run in the background without a UI and communicate with other servers (such as database, file). Thus programming them requires backend expertise (communication protocols, SQL, data processing, etc.) |
 | Client programs are started by end users on their personal device (laptop, smartphone, etc.) and are thus short lived. | Servers are long running or always running on a faceless machine in a data center.|
+{class="table table-striped"}
 
 ## Web client: The browser
 
