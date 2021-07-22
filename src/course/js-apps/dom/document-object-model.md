@@ -43,7 +43,7 @@ This list below is not exhaustive, and other common interfaces will be discussed
   Finds and returns all element with the given class.
   ```javascript
   // Returns the element(s) with the 'even' class.
-  document.getElementsMyClassName('even');
+  document.getElementsByClassName('even');
   ```
 ### document.getElementsByTagName(*tag name*)
   Finds and returns all elements matching the given tag name.
