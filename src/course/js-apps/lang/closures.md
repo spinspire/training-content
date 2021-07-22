@@ -2,6 +2,7 @@
 title: (WIP) Closures
 author: Chaise Matev
 category: language
+weight: 10
 ---
 
 ## What is a closure?
