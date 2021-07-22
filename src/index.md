@@ -11,5 +11,5 @@ Some of our current offerings:
 hi
 
 - [Courses](course): Complete courses in development and other technical topics
-- [Videos](video): Video screencast tutorials on specific technical topics. Coming soon ...
+- [Videos](video): Video screencast tutorials on specific technical topics.
 - [Articles]({{ site.parent }}/articles): Explainer texts on various technical topics.
