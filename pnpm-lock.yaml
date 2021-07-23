@@ -2,6 +2,8 @@ devDependencies:
   '@11ty/eleventy': 0.12.1
   '@11ty/eleventy-plugin-syntaxhighlight': 3.1.1_@11ty+eleventy@0.12.1
   markdown-it-attrs: 4.0.0
+  markdown-it-for-inline: 0.1.1
+  node-fetch: 2.6.1
 lockfileVersion: 5.2
 packages:
   /@11ty/dependency-tree/1.0.0:
@@ -1454,6 +1456,10 @@ packages:
       markdown-it: '>= 9.0.0 < 13.0.0'
     resolution:
       integrity: sha512-uLjtdCmhhmL3BuZsReYkFxk74qKjj5ahe34teBpOCJ4hYZZl7/ftLyXWLowngC2moRkbLEvKwN/7TMwbhbHE/A==
+  /markdown-it-for-inline/0.1.1:
+    dev: true
+    resolution:
+      integrity: sha1-Q18jFvW15o4UUM+iJC8rjVmtx18=
   /markdown-it/10.0.0:
     dependencies:
       argparse: 1.0.10
@@ -1580,6 +1586,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
+  /node-fetch/2.6.1:
+    dev: true
+    engines:
+      node: 4.x || >=6.0.0
+    resolution:
+      integrity: sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
   /nopt/5.0.0:
     dependencies:
       abbrev: 1.1.1
@@ -2513,3 +2525,5 @@ specifiers:
   '@11ty/eleventy': ^0.12.1
   '@11ty/eleventy-plugin-syntaxhighlight': ^3.1.1
   markdown-it-attrs: ^4.0.0
+  markdown-it-for-inline: ^0.1.1
+  node-fetch: ^2.6.1
