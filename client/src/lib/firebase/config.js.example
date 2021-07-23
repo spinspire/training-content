@@ -1,0 +1,9 @@
+export default {
+	apiKey: '...',
+	authDomain: 'spin-learn-auth.firebaseapp.com',
+	projectId: 'spin-learn-auth',
+	storageBucket: 'spin-learn-auth.appspot.com',
+	messagingSenderId: '...',
+	appId: '1:...',
+	measurementId: 'G-...',
+};

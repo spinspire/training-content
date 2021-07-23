@@ -3,7 +3,7 @@ node_modules
 dist-ssr
 *.local
 .pnpm-debug.log
-.env
+*.env
 .npm
 .config/configstore/update-notifier-npm.json
 package-lock.json

@@ -1,9 +1,12 @@
 <script>
+	import app, { auth } from "./lib/firebase/index";
 	export let name;
 	export let loggedIn = false;
 
 	const handleLoginClick = (e) => {
-		loggedIn = loggedIn ? false : true; 
+		loggedIn = loggedIn ? false : true;
+		console.log(app);
+		console.log(auth);
 	};
 
 	const handleRegisterClick = () => {
