@@ -8,8 +8,7 @@ author: SpinSpire team
 SpinSpire developers are some of the best in the industry. They are good communicators and love to share their learning with *customized* training programs. Customized being the keyword here, because rather than giving you cookie-cutter training from prepared materials, we customize the training specifically for your company, employees, and the project they need the training for.
 
 Some of our current offerings:
-hi
 
-- [Courses](course): Complete courses in development and other technical topics
-- [Videos](video): Video screencast tutorials on specific technical topics.
+- [Courses]({{ '/course' | url }}): Complete courses in development and other technical topics
+- [Videos]({{ '/video' | url }}): Video screencast tutorials on specific technical topics.
 - [Articles]({{ site.parent }}/articles): Explainer texts on various technical topics.

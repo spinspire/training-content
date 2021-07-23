@@ -2,6 +2,8 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const slugify = require("slugify");
 const markdownIt = require('markdown-it')
 const markdownItAttrs = require('markdown-it-attrs')
+// see https://franknoirot.co/posts/external-links-markdown-plugin/
+const mdIterator = require('markdown-it-for-inline')
 
 const input = "src";
 const output = "dist";
@@ -59,7 +61,14 @@ module.exports = function (eleventyConfig) {
     breaks: true,
     linkify: true,
   })
-    .use(markdownItAttrs); // see https://dev.to/giulia_chiola/add-html-classes-to-11ty-markdown-content-18ic
+    .use(markdownItAttrs) // see https://dev.to/giulia_chiola/add-html-classes-to-11ty-markdown-content-18ic
+    .use(mdIterator, 'url_new_win', 'link_open', function (tokens, idx) {
+      const [key, href] = tokens[idx].attrs.find(attr => attr[0] === 'href')
+      if (href && !href.includes(pathPrefix)) {
+        tokens[idx].attrPush([ 'target', '_blank' ])
+        tokens[idx].attrPush([ 'rel', 'noopener noreferrer' ])
+      }
+    });
   eleventyConfig.setLibrary('md', markdownLib)
 
   return {
