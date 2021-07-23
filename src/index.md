@@ -11,4 +11,4 @@ Some of our current offerings:
 
 - [Courses]({{ '/course' | url }}): Complete courses in development and other technical topics
 - [Videos]({{ '/video' | url }}): Video screencast tutorials on specific technical topics.
-- [Articles]({{ site.parent }}/articles): Explainer texts on various technical topics.
+- [Articles]({{ '/article' | url }}): Explainer texts on various technical topics.
