@@ -33,7 +33,11 @@ Aside from primitive (scalar) data types (`string`, `number`, `boolean`, etc), J
    ```
    In the above, the length of the array starts at zero, and then expands dynamically as you add elements to it.
 4. The `.length` property of an array reflects the size of the array. If you just want to append something to the end of an array, use `push` method. `push` method mutates the array it operates on, while `concat` method returns a new array with modifications.
-5. Also see, `map` and `reduce` functions on arrays. In general, use `map` when you want all elements of one array transformed in some way into another array. Use `reduce` when you want to somehow compute an aggregate value from elements of an array.
+   ```javascript
+   days_of_week.push('Eighth Day'); // days_of_week is now ['Sunday', ... , 'Eighth Day']
+   const new_array = days_of_week.concat('Ninth Day'); // days_of_week is unchanged, but new_array has nine elements
+   ```
+5. Also see, `map` and `reduce` functions on arrays. In general, use `map` when you want all elements of one array transformed in some way into another array (`const squares = nums.map(n => n*n)`). Use `reduce` when you want to somehow compute an aggregate value from elements of an array. Below is an example of `map`. Combining `map` and `reduce` could be a slightly advanced topic, but see [this](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) for more.
 
 The following code example shows various operations on arrays:
 

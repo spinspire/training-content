@@ -46,7 +46,7 @@ As seen in the example above, a function ...
     * It could also omit returning a value, in which case, the return value is `undefined`.
     * If you want to return multiple values, all you have to do is return one of the composite types (i.e. array or object)
 7.  The function call and its returned value can be used as part of an expression (e.g. `3 * compare(9, 8)`). In our example above, we assigned the returned value to `c1`, `c2`, or `c3`, which is but an *assignment expression*.
-8.  In the case above, it has a name. But that's not always the case. it is possible to have functions without names (anonymous functions).
+8.  In the case above, it has a name. But that's not always the case. it is possible to have functions without names (anonymous functions, explained below).
 9.  The caller context passes in *actual parameter values* that get assigned to the *formal parameters* once you enter the callee context. In our example, `n1` and `n2` (with values 6 and 5) are actual parameters that are assigned to `num1` and `num2`, the formal parameters, when execution context enters the function.
 
 ## Pass-by-value v/s pass-by-reference
