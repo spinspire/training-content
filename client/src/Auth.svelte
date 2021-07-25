@@ -2,14 +2,12 @@
 	import { onDestroy } from "svelte";
 	import { user } from "./stores"
 
-	import { auth } from "./lib/firebase/index";
+	import { auth, login, logout } from "./lib/firebase/index";
 
 	let userValue;
 	const unsubscribe = user.subscribe(value => {
 		userValue = value;
 	});
-
-	let provider = new auth.GoogleAuthProvider();
 
 	$: {
 		auth().onAuthStateChanged(result => {
@@ -21,40 +19,17 @@
 
 
 	const handleLoginClick = (e) => {
-		auth()
-			.signInWithPopup(provider)
-			.then(result => {
-				const credential = result.credential;
-				const token = credential.accessToken;
-
-				user.set(result.user)
-			})
-			.catch(e => {
-				const errorCode = e.code;
-				const errorMessage = e.message;
-				alert(errorCode, ":\n ", errorMessage);
-
-				const email = e.email;
-				const credential = e.credential;
-			})
+		user.set(login());
 	};
 
 	const handleLogOutClick = () => {
-		auth()
-			.signOut()
-			.then(result => {
-				alert(`${userValue.displayName} has been logged out!`);
-				user.set(null);
-			})
-			.catch(e => {
-				const errorCode = e.code;
-				const errorMessage = e.message;
-				alert(errorCode, ":\n ", errorMessage);
-
-				const email = e.email;
-				const credential = e.credential;	
-			});
+		const name = userValue.displayName; 
+		user.set(logout());
+		if (!userValue){
+			alert(`${name} has been logged out!`);
+		}
 	};
+
 	const handleGetCurrentUser = () => {
 		console.log(userValue);
 	};
@@ -62,14 +37,24 @@
 	onDestroy(unsubscribe);
 </script>
 
-<span>	
-	{#if userValue != null}
-		<span>
-			<p>{userValue.displayName}</p>
-		</span>
-		<button on:click|preventDefault={handleLogOutClick}>Log Out</button>	
-	{:else}
-		<button on:click|preventDefault={handleLoginClick}>Login</button>
-	{/if}
-	<button on:click|preventDefault={handleGetCurrentUser}>Get current user</button>
-	</span>
+<nav class="navbar navbar-expand-lg navbar-light">
+	<div class="container-fluid">
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			{#if userValue != null}
+			<li class="nav-item ">
+				<p class="h1">{userValue.displayName}</p>
+			</li>
+			<li class="nav-item">
+				<button on:click|preventDefault={handleLogOutClick}>Log Out</button>	
+			</li>
+			{:else}
+			<li class="nav-item">
+				<button on:click|preventDefault={handleLoginClick}>Login</button>
+			</li>
+			{/if}
+			<li class="nav-item">
+				<button on:click|preventDefault={handleGetCurrentUser}>Get current user</button>
+			</li>
+		</ul>
+	</div>
+</nav>
