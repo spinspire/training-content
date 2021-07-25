@@ -4,5 +4,5 @@ import 'firebase/auth'; // for side-effects only
 
 const app = firebase.initializeApp(config);
 
-export const auth = app.auth();
+export const auth = firebase.auth;
 export default app;
