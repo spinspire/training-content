@@ -44,6 +44,7 @@
 			<li class="nav-item ">
 				<p class="h1">{userValue.displayName}</p>
 			</li>
+			<img class="profile-pic" src={userValue.photoURL} alt="{userValue.displayName}'s profile picture.">
 			<li class="nav-item">
 				<button on:click|preventDefault={handleLogOutClick}>Log Out</button>	
 			</li>
