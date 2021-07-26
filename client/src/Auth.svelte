@@ -1,13 +1,6 @@
 <script>
-	import { onDestroy } from "svelte";
 	import { user } from "./stores"
-
 	import { auth, login, logout } from "./lib/firebase/index";
-
-	let userValue;
-	const unsubscribe = user.subscribe(value => {
-		userValue = value;
-	});
 
 	$: {
 		auth().onAuthStateChanged(result => {
@@ -17,30 +10,27 @@
 		});
 	}
 
-
 	const handleLoginClick = (e) => {
 		user.set(login());
 	};
 
 	const handleLogOutClick = () => {
-		const name = userValue.displayName; 
+		const name = $user.displayName; 
 		user.set(logout());
-		if (!userValue){
+		if (!$user){
 			alert(`${name} has been logged out!`);
 		}
 	};
-
-	onDestroy(unsubscribe);
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-light">
 	<div class="container-fluid">
 		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-			{#if userValue != null}
+			{#if $user != null}
 			<li class="nav-item ">
-				<p class="h1">{userValue.displayName}</p>
+				<p class="h1">{$user.displayName}</p>
 			</li>
-			<img class="profile-pic" src={userValue.photoURL} alt="{userValue.displayName}'s profile picture.">
+			<img class="profile-pic" src={$user.photoURL} alt="{$user.displayName}'s profile picture.">
 			<li class="nav-item">
 				<button on:click|preventDefault={handleLogOutClick}>Log Out</button>	
 			</li>
