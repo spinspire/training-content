@@ -125,6 +125,7 @@ But the same can be expressed in shorter and more readable way like this:
 const {name, age, ...without_name_and_age} = customer;
 const [sq0, sq1, sq2, ...sq3to9] = squares;
 ```
+*Note:* this block is ES6 notation (see ES6 section).
 
 Notice the use of spread operator to catch all values that are not already destructured.
 
