@@ -8,7 +8,7 @@ category: language
 
 - A variable declaration gives a name and a data type for the variable.
 - These declarations may also have a specific value placed inside of it.
-- A variable can not be used in a program unless it has aleady been declared.
+- A variable can not be used in a program unless it has already been declared.
 
 Keywords to declare variables in JavaScript are ...
 
@@ -62,7 +62,7 @@ console.log(hi); //"im saying hello now"
 ```
 
 - The problem here is that var "timesIveSaidHello" is true because its greater than 3
-- That means hi is redefined it becomes a problem when you dont realize that var hi has already been defined before.
+- That means hi is redefined it becomes a problem when you don't realize that var hi has already been defined before.
 - Especially if you have used the var "hi" in other parts of your code you will maybe get surprise output.
 - This is why let, and const are necessary
 
@@ -120,7 +120,7 @@ console.log(banana); // output: banana
 
 - Variables that are declared with const maintain constant values.
 - const just like let can only be accessed within the block scope they are declared in.
-- Unlike let, const can not be redeclared or updated even within the same scope.
+- Unlike let, const can not be re-declared or updated even within the same scope.
 - This means that the value of const never changes within its scope.
 - If we declare a variable using const we can not do either one of these examples below.
 
@@ -162,8 +162,8 @@ greeter = "say hello";
 
 ## In summary
 
-- Understanding variable declarations is extrmemely important in any type of programming.
+- Understanding variable declarations is extremely important in any type of programming.
 - Understanding how and when to use these variable within the scope of your project will make designing an application much easier
 - Also with utilizing the variable declarations of let and const they allow you to keep your code "dry".
-- This means that you arent repeating yourself with the same variables within your projects and can keep code clean and less confusing overall.
+- This means that you aren't repeating yourself with the same variables within your projects and can keep code clean and less confusing overall.
 - The most important thing to remember is to keep your code simple, by using const over let you can make sure that a single variable represents a single value of data, which you can accomplish with using const over let.
