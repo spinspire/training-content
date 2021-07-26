@@ -30,10 +30,6 @@
 		}
 	};
 
-	const handleGetCurrentUser = () => {
-		console.log(userValue);
-	};
-
 	onDestroy(unsubscribe);
 </script>
 
@@ -53,9 +49,6 @@
 				<button on:click|preventDefault={handleLoginClick}>Login</button>
 			</li>
 			{/if}
-			<li class="nav-item">
-				<button on:click|preventDefault={handleGetCurrentUser}>Get current user</button>
-			</li>
 		</ul>
 	</div>
 </nav>
