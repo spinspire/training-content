@@ -4,7 +4,7 @@ author: Christian Crawford
 category: language
 ---
 
-In JavsScript conditions can be combined using and/or logic. 
+In JavaScript conditions can be combined using and/or logic. 
 
 ### OR 
   - is denoted with '||'
