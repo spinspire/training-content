@@ -26,15 +26,40 @@ Javascript is a loosly typed language and, like many languages, contains primiti
     let isOpen = true;
     ```
   - Undefined
-    - The default value for variables before they’re assigned a value.
+    - The default value for variables before they’re assigned a value
     ```javascript
     let x; // x is of type undefined at this point.
     
     x = 5; // x no longer has a type of undefined, instead it's now a number.
     ```
   - Null
+    ```javascript
+    let x = null;
+    ```
   - Symbol (ES6)
+    - Symbol is a built-in object whose constructor returns a symbol primitive — also called a `Symbol value` or just a `Symbol` that’s guaranteed to be unique
+    - Symbols are often used to add unique property keys to an object that won’t collide with keys any other code might add to the object
+    ```javascript
+    let sym1 = Symbol()
+    let sym2 = Symbol('foo')
+    ```
   - BigInt (ES2020)
+    - Used to represent whole numbers with a value larger than 2^53 - 1 (~ 9 quadrillion)
+    - Can be created by either appending a "n" to the end of the integer literal, or by using the BigInt() constructor
+    ```javascript
+    const previouslyMaxInteger = 9007199254740991n
+    const anotherHuge = BigInt(9007199254740991)
+    ```
+    - BigInt values cannot be used with the built-in Math object 
+    - They also cannot be mixed with a `Number` value in operations.
+    ```javascript
+    let num = 123;
+    let bigInt = BigInt(9007199254740992);
+    // This is not allowed, and will result in an error.
+    let newValue = num + bigInt;
+    // You must convert all values into BigInt types.
+    let newValue = BigInt(num) + bigInt;
+    ```
 
 ### Non-Primitives
   - Array
