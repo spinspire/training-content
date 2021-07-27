@@ -6,7 +6,7 @@ pagination:
 ---
 
 {% for article in pagination.items -%}
-- [{{ article.attributes.title }}]({{ site.parent + article.attributes.path.alias }})
+- [{{ article.attributes.title }}]({{ article.attributes.path.alias | url }}/)
 {% endfor %}
 
 <nav aria-label="Page navigation">
