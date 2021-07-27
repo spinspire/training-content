@@ -1,0 +1,32 @@
+{
+  "isms": [
+    {
+      "title": "imagination is more important than knowledge",
+      "image": "umit-yildirim-7DUtGd-Snuo-unsplash.jpg"
+    },
+    {
+      "title": "teaching is the best way of learning",
+      "image": "ismail-salad-hajji-dirir-v7FT5ngIEfA-unsplash.jpg"
+    },
+    {
+      "title": "grow your code organically",
+      "image": "jan-kopriva-OHo8ST9kugw-unsplash.jpg"
+    },
+    {
+      "title": "refactor mercilessly",
+      "image": "shane-aldendorff-3AzL-IR3v7Y-unsplash.jpg"
+    },
+    {
+      "title": "never be lost more than one step",
+      "image": "tian-bai-821Pxje3G6g-unsplash.jpg"
+    },
+    {
+      "title": "smallest change that is testable",
+      "image": "gabriella-clare-marino-EGXpSrG02sU-unsplash.jpg"
+    },
+    {
+      "title": "bugs hide in noise",
+      "image": "kazuend-CidTiONfQz4-unsplash.jpg"
+    }
+  ]
+}
