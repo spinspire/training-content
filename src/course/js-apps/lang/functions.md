@@ -1,5 +1,5 @@
 ---
-title: Functions, Lambdas, IIFE, and pass-by-value
+title: Functions, IIFE, and pass-by-value
 author: Jitesh Doshi
 category: language
 references:
@@ -37,6 +37,8 @@ As seen in the example above, a function ...
 1.  Is a chunk of code with definite boundaries (begin and end) defined once.
 2.  Potentially *called* any number of times (if called more than once, it would be considered reusable).
     * There is a clear distinction between a *function definition* and a *function call*.
+      * Function definition: A procedure/process made from a chunk of code that is used to complete a task e.g. everything from the first to last curly brace "{ }" in the example above is the definition.
+      * Function call: Actually using the function to complete a task e.g. compare(n1, n2) in example above.
     * The line of code that calls or invokes a function is called *caller* while the function itself is called *callee* in that context.
 3.  Has a specific *function* or responsibilities, e.g. this one compares two numbers.
 4.  Receives zero or more named *parameters*, e.g. `num1` and `num2` above.
@@ -51,14 +53,16 @@ As seen in the example above, a function ...
 
 ## Pass-by-value v/s pass-by-reference
 
-You can think of the formal parameters (`num1` and `num2`) as local variables in the function scope. Assigning new values to them doesn't affect the value of actual parameters (`n1` and `n2`). For example, if you added the following code somewhere in the function above, it would affect the value of `num1`, but not of `n1`.
+- You can think of the formal parameters (`num1` and `num2`) as local variables in the function scope. Assigning new values to them doesn't affect the value of actual parameters (`n1` and `n2`). For example, if you added the following code somewhere in the function above, it would affect the value of `num1`, but not of `n1`.
 ```javascript
 num1 = 999;
+// Actual parameter 
 ```
 
-This behavior is called *pass-by-value* (as opposed to *pass-by-reference*), where only a copy of the value of the actual parameter is passed, not the parameter variable from the caller context. In the code above, if assigning a new value to `num1` affected the value of `n1`, then that would be called *pass-by-reference*. JavaScript doesn't do that. It does *pass-by-value*.
+- This behavior is called *pass-by-value*, where only a copy of the value of the actual parameter is passed, not the parameter variable from the caller context. 
+  - In the code above, if assigning a new value to `num1` affected the value of `n1`, then that would be called *pass-by-reference*. JavaScript doesn't do that. It does *pass-by-value*.
 
-But then, there are some scenarios under which it may *look like* you're getting pass-by-reference behavior (you're not). Here's an example:
+- But then, there are some scenarios under which it may *look like* you're getting pass-by-reference behavior (but you're not!). Here's an example:
 
 ```javascript
 function upgradeCustomer(customer) {
@@ -66,22 +70,32 @@ function upgradeCustomer(customer) {
 }
 
 const cust1 = {status: "standard"};
-console.log("customer", cust1);
+console.log("customer", cust1); // {status: "standard"}
 upgradeCustomer(cust1);
-console.log("customer", cust1);
+console.log("customer", cust1); // {status: "premier"}
 ```
 
-If you run the code above (by pasting it into `Developer Tools`>`Console`), it will first print a status of "standard" and then of "premier". Does that mean that assigning a new value to `customer.status` inside the function is changing the value of `cust1`? It may look like that, but technically that's not the case. It is not changing the value of `cust1`, it is only changing the value of a *property* (`status`) of the *object* that `cust1` (and later `customer`) is referencing. If instead of reassigning to `customer.status` had we reassigned to `customer` itself, it would have had no effect on `cust1` -- and that's why this is still *pass-by-value*.
+- If you run the code above (by pasting it into `Developer Tools`>`Console`), it will first print a status of "standard" and then of "premier". Does that mean that assigning a new value to `customer.status` inside the function is changing the value of `cust1`? It may look like that, but technically that's not the case. It is not changing the value of `cust1`, it is only changing the value of a *property* (`status`) of the *object* that `cust1` (and later `customer`) is referencing. If instead of reassigning to `customer.status` had we reassigned to `customer` itself, it would have had no effect on `cust1` -- and that's why this is still *pass-by-value*.
+```javascript
+function upgradeCustomer(customer) {
+  customer = "premier";
+}
 
-Then why are we getting the illusion of *pass-by-reference*? That's because objects (and arrays) are what we call "reference types". Meaning, variables of these types simply *point to* the object or the array in memory, they don't actually carry the entire object or array as value.
+const cust1 = {status: "standard"};
+console.log("customer", cust1); // {status: "standard"}
+upgradeCustomer(cust1);
+console.log("customer", cust1); // {status: "standard"}
+```  
+
+- Then why are we getting the illusion of *pass-by-reference*? That's because objects (and arrays) are what we call "reference types". Meaning, variables of these types simply *point to* the object or the array in memory, they don't actually carry the entire object or array as value.
 
 [TODO] - provide a graphic.
 
-Certain languages (e.g. PHP and C++) do provide the option to pass-by-reference, while JavaScript doesn't. Instead it provides *reference types*. And if you do want to compute a new value for a non-reference type (e.g. number) then why not just *return* that new value from the function.
+- Certain languages (e.g. PHP and C++) do provide the option to pass-by-reference, while JavaScript doesn't. Instead it provides *reference types*. And if you do want to compute a new value for a non-reference type (e.g. number), then *return* that new value from the function.
 
 ## Anonymous Functions and IIFE
 
-JavaScript allows omitting the *name* of the function, like so:
+- JavaScript allows omitting the *name* of the function, like so:
 
 ```javascript
 function() {
@@ -89,7 +103,7 @@ function() {
 }
 ```
 
-This is called anonymous function.  The only problem is, how would you call such a function? There are a few ways:
+- This is called anonymous function.  The only problem is, how would you call such a function? There are a few ways:
 
 1.  Assign the anonymous function to a variable, and then invoke or call that variable like a function.
     ```javascript
@@ -112,7 +126,7 @@ This is called anonymous function.  The only problem is, how would you call such
       // ... some code
     })(); // IIFE
     ```
-    The above is called an Immediately Invoked Function Expression (IIFE), because we are defining and invoking a function in a single expression. We did have to wrap the *function definition* in parenthesis (i.e. `()`) because otherwise the last pair of `()` would try to *invoke* the function before it was *defined*. By wrapping the function definition in `()` we are forcing it to take precedence over function invocation.
+- The above is called an Immediately Invoked Function Expression (IIFE), because we are defining and invoking a function in a single expression. We did have to wrap the *function definition* in parenthesis (i.e. `()`) because otherwise the last pair of `()` would try to *invoke* the function before it was *defined*. By wrapping the function definition in `()` we are forcing it to take precedence over function invocation.
 
-    So why would anyone want to write code like that? The short answer is -- This is a better than writing a ton of code outside the IIEF (at global scope) because it does not pollute the global namespace that variables from this code. If that doesn't make any sense to you, then just wait. We'll explain when there's a need to use IIFE.
+- So why would anyone want to write code like that? The short answer is -- This is a better than writing a ton of code outside the IIEF (at global scope) because it does not pollute the global namespace that variables from this code. If that doesn't make any sense to you, then just wait. We'll explain when there's a need to use IIFE.
 
