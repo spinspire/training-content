@@ -61,6 +61,7 @@ module.exports = function (eleventyConfig) {
     breaks: true,
     linkify: true,
   })
+    .disable('code') // see https://www.11ty.dev/docs/languages/markdown/#there-are-extra-and-in-my-output
     .use(markdownItAttrs) // see https://dev.to/giulia_chiola/add-html-classes-to-11ty-markdown-content-18ic
     .use(mdIterator, 'url_new_win', 'link_open', function (tokens, idx) {
       const [key, href] = tokens[idx].attrs.find(attr => attr[0] === 'href')
