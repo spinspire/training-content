@@ -1,6 +1,6 @@
 ---
 title: Stay Curious
-author: SpinSpire team
+author: SpinSpire Team
 ---
 
 _Welcome to {{ site.name }}!_
@@ -26,3 +26,5 @@ Some of our current offerings:
     </div>
   </div>
 </div>
+
+author_info: {{ author_info }}
