@@ -28,14 +28,14 @@ weight: 10
     ```javascript
     (async function (data = {}) {
     // Default options are marked with *
-        const url =  'https://v2.jokeapi.dev/joke/';
+        const url = "https://v2.jokeapi.dev/joke/";
         try {
         const response = await fetch(url, {
         // the default value of method if it is not specified is GET.
-        method: 'POST', //Can be one of the following: *GET, POST, PUT, DELETE, etc.
+        method: "POST", //Can be one of the following: *GET, POST, PUT, DELETE, etc.
         headers: {
-        'Content-Type': 'application/json',
-        "Authorization": 'Bearer 1234', // this is required if the resource your requesting is restricted by its owner requiring you to be authenticated
+        "Content-Type": "application/json",
+        "Authorization": "Bearer 1234", // this is required if the resource your requesting is restricted by its owner requiring you to be authenticated
         },
         body: JSON.stringify(data) // body data type must match "Content-Type" header which is why we call the JSON object
         }
@@ -48,11 +48,11 @@ weight: 10
     )}();
     ```
 
-- The above example is a more configured version of Fetch, however if you wanted to just run a fetch with all the defautl options enabled you would just do this:
+- The above example is a more configured version of Fetch, however if you wanted to just run a fetch with all the default options enabled you would just do this:
   ```javascript
   (async function (data = {}) {
     try{
-  const url =  'https://v2.jokeapi.dev/joke/';
+  const url =  "https://v2.jokeapi.dev/joke/";
   const response = await fetch(url);
   data =  await response.json(); // parses JSON response into JavaScript objects
   } catch {
