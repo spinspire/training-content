@@ -12,6 +12,7 @@ Some of our current offerings:
 - [Courses]({{ '/course' | url }}): Complete courses in development and other technical topics
 - [Videos]({{ '/video' | url }}): Video screencast tutorials on specific technical topics.
 - [Articles]({{ '/article' | url }}): Explainer texts on various technical topics.
+- [Crazy ideas to live by]({{ '/isms' | url }}): Our design/development philosophy in form of pithy expressions (SpinSpire-isms).
 
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-signup">
