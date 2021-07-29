@@ -31,12 +31,33 @@ weight: 0
 </head>
 
 <body>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-dark" id="exampleModalLabel">Why sign up?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-dark">
+          We encourage you to login so you can track your progress and have special access to features on the website!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class=" bg-dark text-white">
   <header class="container d-flex align-items-center">
     <a href={{ '/' | url }}><img src="{{ '/logo.png' | url }}" alt="SpinSpire logo"></a>
     <h1 class="text-truncate" title="{{ title }}">{{ title }}</h1>
     <span id="auth"></span>
+    <!-- bootstrap modal button -->
+    <button type="button" class="btn btn-dark hide-on-auth" data-bs-toggle="modal" data-bs-target="#exampleModal">
+     Why login?
+    </button>
   </header>
   </div>
 

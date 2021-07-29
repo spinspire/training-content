@@ -1,5 +1,6 @@
 <script>
   import { user } from "./lib/firebase";
+// Displays modal if logged in
   $: if($user) {
     document.body.classList.add("user-logged-in");
   } else {
