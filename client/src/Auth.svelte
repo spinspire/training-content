@@ -1,5 +1,10 @@
 <script>
   import { user } from "./lib/firebase";
+  $: if($user) {
+    document.body.classList.add("user-logged-in");
+  } else {
+    document.body.classList.remove("user-logged-in");
+  }
 </script>
 
 <div class="btn-group firebase-auth">
