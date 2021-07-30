@@ -6,7 +6,7 @@ const swup = new Swup({
 	containers: [
 		'#swup',
 		'header>h1',
-		'footer>span.author',
+		'footer span.author',
 	]
 });
 
