@@ -40,27 +40,29 @@ weight: 0
   </header>
   </div>
 
-  {%if ytvid %}
-  <div class="ytvid-wrapper">
-    <iframe class="ytvid" name="ytvid" width="560" height="315" src="https://www.youtube.com/embed/{{ytvid}}"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-  </div>
-  {% endif %}
-
-  <main class="container mt-4">
-    {{ content | safe }}
-    <hr>
-    {% if references %}
-    <h6>References:</h6>
-    <ol>
-      {% for text, url in references %}
-      <li><a href="{{ url }}" target="_blank">{{ text }}</a></li>
-      {% endfor %}
-    </ol>
+  <div id="swup">
+    {%if ytvid %}
+    <div class="ytvid-wrapper">
+      <iframe class="ytvid" name="ytvid" width="560" height="315" src="https://www.youtube.com/embed/{{ytvid}}"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
     {% endif %}
-  </main>
+
+    <main class="container mt-4">
+      {{ content | safe }}
+      <hr>
+      {% if references %}
+      <h6>References:</h6>
+      <ol>
+        {% for text, url in references %}
+        <li><a href="{{ url }}" target="_blank">{{ text }}</a></li>
+        {% endfor %}
+      </ol>
+      {% endif %}
+    </main>
+  </div>
 
   <div class="bg-dark text-white">
     <footer class="container">
