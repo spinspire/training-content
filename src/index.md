@@ -26,5 +26,3 @@ Some of our current offerings:
     </div>
   </div>
 </div>
-
-author_info: {{ author_info }}
