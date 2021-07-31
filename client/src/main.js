@@ -1,5 +1,6 @@
 import Auth from './Auth.svelte';
 import Swup from 'swup';
+import SwupTheme from '@swup/overlay-theme';
 
 // swup gives ajax page transitions. See https://swup.js.org/
 const containers = [
@@ -14,8 +15,14 @@ const containers = [
     console.warn("Swup container not found: ", c);
   }
 });
+const plugins = [
+  new SwupTheme({
+    duration: 50,
+  }),
+];
 const swup = new Swup({
   containers,
+  plugins,
 });
 
 new Auth({
