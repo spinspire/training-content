@@ -1,4 +1,5 @@
 dependencies:
+  '@swup/overlay-theme': 1.1.1
   firebase: 8.8.0
   sirv-cli: 1.0.12
   swup: 2.0.14
@@ -484,6 +485,16 @@ packages:
       node: '>= 8.0.0'
     resolution:
       integrity: sha512-clDjivHqWGXi7u+0d2r2sBi4Ie6VLEAzWMIkvJLnDmxoOhBYOTfzGbOQBA32THHm11/LiJbd01tJUpJsbshSWQ==
+  /@swup/overlay-theme/1.1.1:
+    dependencies:
+      '@swup/theme': 1.0.7
+    dev: false
+    resolution:
+      integrity: sha512-6LvTOcpwPvKvaGkzDR7sB9moSwM1hp+7vzT7M8hnTzUaZQ4yRo1y+ZnALZy13McUbsxqDX1Xn3CTJf34rs1sDA==
+  /@swup/theme/1.0.7:
+    dev: false
+    resolution:
+      integrity: sha512-OINEaf34fYs90l7/YUUKfOf+paY7/FDhOBLwYxrD0w1OjBiItZpw3N+ATA/QklJwmoUu3KkDFOaQG0zT4KxmmA==
   /@tsconfig/svelte/2.0.1:
     dev: true
     resolution:
@@ -1488,6 +1499,7 @@ specifiers:
   '@rollup/plugin-commonjs': ^17.0.0
   '@rollup/plugin-node-resolve': ^11.0.0
   '@rollup/plugin-typescript': ^8.0.0
+  '@swup/overlay-theme': ^1.1.1
   '@tsconfig/svelte': ^2.0.0
   firebase: ^8.8.0
   rollup: ^2.3.4
