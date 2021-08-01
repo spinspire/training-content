@@ -31,7 +31,9 @@ Okay, the idea is to quickly get to a point when you can write full-stack web ap
 
 {% for key, label in categories %}
 - {{ label }}
-  {% for page in collections.category[key] | sort(false, false, 'data.weight') -%}
-  - [{{ page.data.title }}]({{ page.url | url }})
+  {% for pg in collections.category[key] | sort(false, false, 'data.weight') -%}
+  {% if pg.url | startsWith(page.url) and pg.url !== page.url -%}
+  - [{{ pg.data.title }}]({{ pg.url | url }})
+  {% endif %}
   {% endfor %}
 {% endfor %}
