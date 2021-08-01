@@ -20,10 +20,9 @@ Okay, the idea is to master all the important aspects of Drupal CMS in a fairly 
 
 {% for key, label in categories %}
 - {{ label }}
-  - coming soon ...
-{#
-  {% for page in collections.category[key] | sort(false, false, 'data.weight') -%}
-  - [{{ page.data.title }}]({{ page.url | url }})
+  {% for pg in collections.category[key] | sort(false, false, 'data.weight') -%}
+  {% if pg.url | startsWith(page.url) and pg.url !== page.url -%}
+  - [{{ pg.data.title }}]({{ pg.url | url }})
+  {% endif %}
   {% endfor %}
-#}
 {% endfor %}

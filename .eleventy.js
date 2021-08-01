@@ -12,6 +12,7 @@ const assetExts = "png,jpg,jpeg,svg,pdf,css";
 const client = "client/public/build";
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addFilter("startsWith", (str, prefix) => str.startsWith(prefix));
   eleventyConfig.addFilter("slug", (str) => {
     return slugify(str, {
       lower: true,

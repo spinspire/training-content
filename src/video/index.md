@@ -24,15 +24,15 @@ We love to share knowledge by publishing videos, tutorials, and screencasts to t
 But now, the same videos are available with **extra show notes, written explanation, and code snippets**. Enjoy!
 
 <div class="row row-cols-sm-2 row-cols-md-3">
-{% for page in collections.all -%}
-  {% if r/^\/video\/.+/.test(page.url) -%}
-  <a href={{ page.url | url }} style="text-decoration: none; color: inherit">
+{% for pg in collections.all -%}
+  {% if pg.url | startsWith("/video/") and pg.url !== page.url -%}
+  <a href={{ pg.url | url }} style="text-decoration: none; color: inherit">
   <div class="card col">
-    <img class="card-img-top" src="https://i.ytimg.com/vi/{{ page.data.ytvid }}/hqdefault.jpg" alt="YouTube thumbnail">
+    <img class="card-img-top" src="https://i.ytimg.com/vi/{{ pg.data.ytvid }}/hqdefault.jpg" alt="YouTube thumbnail">
     <div class="card-body">
-      <h5 class="card-title">{{ page.data.title }}</h5>
-      {%- if page.data.description -%}
-        <p class="card-text">{{ page.data.description }}</p>
+      <h5 class="card-title">{{ pg.data.title }}</h5>
+      {%- if pg.data.description -%}
+        <p class="card-text">{{ pg.data.description }}</p>
       {%- endif -%}
     </div>
   </div>
