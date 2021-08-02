@@ -17,8 +17,11 @@
       This is seems inefficient and there is almost certainly 
       a better way to do this. */
         if(path.find(e => e == course) && path.length > 5){
-          console.log('sent link');
-          user.updateLocation();
+          setTimeout(() => {
+            user.updateLocation();
+            alert('updated location');
+          }, 5000);
+
         }
     });
     }
