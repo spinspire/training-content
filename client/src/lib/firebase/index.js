@@ -25,22 +25,6 @@ export const createUser = async (user) => {
 	}
 };
 
-export const updateUserLocation = async () => {
-	const currentLocationURL = window.location.href;
-	const user = await firebase.auth().currentUser;
-	try {
-		await users.doc(user.uid).set(
-			{
-				locationURL: currentLocationURL,
-				locationTitle: document.title,
-			},
-			{ merge: true }
-		);
-	} catch (error) {
-		console.error(error);
-	}
-};
-
 // 'user' is a readable store that is tied to the auth status of the firebase user
 export const user = readable(null, (setter) => {
 	// listen for login/logout events and update user store
@@ -67,6 +51,24 @@ user.login = async function () {
 user.logout = async function () {
 	try {
 		await firebase.auth().signOut();
+	} catch (e) {
+		const message = `${e.code}\n${e.message}`;
+		console.error(message);
+		alert(message);
+	}
+};
+
+user.updateLocation = async () => {
+	try {
+		const user = await firebase.auth().currentUser;
+
+		await users.doc(user.uid).set(
+			{
+				locationURL: window.location.href,
+				locationTitle: document.title,
+			},
+			{ merge: true }
+		);
 	} catch (e) {
 		const message = `${e.code}\n${e.message}`;
 		console.error(message);

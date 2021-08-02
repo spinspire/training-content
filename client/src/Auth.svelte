@@ -5,6 +5,26 @@
   } else {
     document.body.classList.remove("user-logged-in");
   }
+
+  document.addEventListener('swup:contentReplaced', (event) => {
+    if (document.body.classList.value === "user-logged-in"){
+      const courses = ['js-apps', 'drupal'];
+      const path = document.location.pathname.split('/');
+      //Goes through the path and checks if inside course.
+      courses.forEach(course => {
+      /* Checks for path length as a "path" array length more 
+      than 5 means we are in a course page. 
+      This is seems inefficient and there is almost certainly 
+      a better way to do this. */
+        if(path.find(e => e == course) && path.length > 5){
+          console.log('sent link');
+          user.updateLocation();
+        }
+    });
+    }
+});
+
+
 </script>
 
 <div class="btn-group firebase-auth">
