@@ -21,10 +21,6 @@ pnpm start #live development: runs watch and serves site
 pnpm run build #compile for deployment
 ```
 
-## Course Structure for Authors
-
-- See [Authoring](src/course/authoring.md)
-  
 ## How to write content
 
 - Create/update modules in \*.md files in `src` directory
@@ -36,6 +32,8 @@ pnpm run build #compile for deployment
 - Use `weight` field to control the order of modules within a category
 - Use `references` as appropriate
 - In general, make sure you review the existing modules, and follow the existing style in both content and code
+
+See the [Authoring Guide](src/course/authoring.md) for the style and structure of the content.
 
 ## How to code (for Static Site Generation)
 
