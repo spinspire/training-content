@@ -21,6 +21,10 @@ pnpm start #live development: runs watch and serves site
 pnpm run build #compile for deployment
 ```
 
+## Course Structure for Authors
+
+- See [Authoring](src/course/authoring.md)
+  
 ## How to write content
 
 - Create/update modules in \*.md files in `src` directory
