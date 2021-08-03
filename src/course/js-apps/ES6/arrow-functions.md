@@ -2,7 +2,7 @@
 title: Arrow Functions/Lambda Expressions
 author: Jitesh Doshi Joshua Leisure
 category: es6
-References: 
+references: 
 "Arrow Functions": https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 weight: 1
 ---

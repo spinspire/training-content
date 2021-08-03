@@ -2,7 +2,7 @@
 title: Strings and Template Literals
 author: Joshua Leisure
 category: es6
-References: 
+references: 
 "String methods": https://www.w3schools.com/js/js_string_methods.asp
 "Template literals": https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 weight: 0
