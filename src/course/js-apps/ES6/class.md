@@ -1,11 +1,11 @@
 ---
 title: Classes
 author: Joshua Leisure
-category: ES6
+category: es6
 References: 
 "Constructors": https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/define-a-constructor-function
 "Template literals": https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-weight: 3
+weight: 4
 ---
 
 ## Classes

@@ -1,12 +1,12 @@
 ---
 title: Mutations, Rest Parameter, and Spread Operator
 author: Joshua Leisure
-category: ES6
+category: es6
 References:
 "Reduce": https://www.w3schools.com/jsref/jsref_reduce.asp
 "Rest Parameter":  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
 "Spread Operator": https://scotch.io/bar-talk/javascripts-three-dots-spread-vs-rest-operators543
-weight: 1
+weight: 3
 ---
 
 ## Mutations

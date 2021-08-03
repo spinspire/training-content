@@ -11,7 +11,7 @@ references:
 categories:
   start: Getting Started
   language: Language fundamentals
-  ES6: ES6 (modern javascript) - coming soon ...
+  es6: ES6 (modern javascript)
   dhtml: DHTML (Dynamic HTML)
   ajax: AJAX
   svelte: Svelte
