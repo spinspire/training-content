@@ -1,4 +1,5 @@
 import Auth from './Auth.svelte';
+import Alerts, { alerts } from './lib/components/Alerts.svelte';
 import Swup from 'swup';
 import SwupTheme from '@swup/overlay-theme';
 
@@ -24,11 +25,8 @@ const swup = new Swup({
 
 new Auth({
 	target: document.getElementById('auth'),
-	props: {
-		// name: 'User',
-		// user: null,
-		// loggedIn: false,
-	},
 });
 
-// export default app;
+new Alerts({
+	target: document.getElementById('alerts'),
+});

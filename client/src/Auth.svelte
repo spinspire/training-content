@@ -1,33 +1,54 @@
 <script>
+  import { alerts } from "./lib/components/Alerts.svelte";
+
   import { user } from "./lib/firebase";
+  import {getLocation, updateLocation} from './lib/firebase/firestore/';
+
+  const updateLastLocationMessage = async () => {
+    const {title, url} = await getLocation($user);
+    if (title && url){
+      const message = `Last Location: ${title} \n <a href="${url}">LINK</a>`;
+      alerts.add("success", message);
+    }
+  };
+
+
   $: if($user) {
     document.body.classList.add("user-logged-in");
+
+    console.log("checking for user")
+
+    updateLastLocationMessage();
   } else {
     document.body.classList.remove("user-logged-in");
   }
 
-  document.addEventListener('swup:contentReplaced', (event) => {
-    if (document.body.classList.value === "user-logged-in"){
-      const courses = ['js-apps', 'drupal'];
-      const path = document.location.pathname.split('/');
-      //Goes through the path and checks if inside course.
-      courses.forEach(course => {
-      /* Checks for path length as a "path" array length more 
-      than 5 means we are in a course page. 
-      This is seems inefficient and there is almost certainly 
-      a better way to do this. */
-        if(path.find(e => e == course) && path.length > 5){
-          setTimeout(() => {
-            user.updateLocation();
-            alert('updated location');
-          }, 5000);
+  let timer = null;
+  const LOCATION_SAVE_TIMEOUT = 5000;
 
-        }
-    });
+  // we want to remember current location in firebase
+  // watch "swup:contentReplace" event which triggers on each page navigation
+  document.addEventListener('swup:contentReplaced', (event) => {
+    // clear previous timer if any
+    if(timer) {
+      clearTimeout(timer);
+    }
+    if ($user) { // only if we are logged in
+      const [_, learn, coursePrefix, courseName, section] = document.location.pathname.split('/');
+      // are we in a place that we would like to remember?
+      if(coursePrefix === "course" && !!section) {
+        // remember only if we are under course/[course-name]/[section]
+        const prevLocation = window.location.href;
+        timer = setTimeout(async () => {
+          const newLocation = window.location.href;
+          // Are we still logged in, and are we still on the same page after timeout?
+          if ($user && prevLocation === newLocation) {
+            await updateLocation($user, newLocation, document.title);
+          }
+        }, LOCATION_SAVE_TIMEOUT);
+      }
     }
 });
-
-
 </script>
 
 <div class="btn-group firebase-auth">
