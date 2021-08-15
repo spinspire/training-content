@@ -1,0 +1,35 @@
+---
+import Main from "~/layouts/Main.astro";
+import data from "./article/data.js";
+import {Markdown} from "astro/components"
+
+export async function createCollection() {
+  const nodes = await data();
+  return {
+    paginate: true,
+    route: '/articles/:page?',
+    async props({paginate}) {
+      return {
+        pages: paginate(nodes, {pageSize: 20}),
+      };
+    },
+  };
+}
+
+Astro.props.content = {title: "SpinSpire Articles"};
+const {pages} = Astro.props;
+---
+<Main {...Astro.props}>
+  <ul>
+    {pages.data.map(node => <li><a href={node.alias}>{node.title}</a></li>)}
+  </ul>
+  <footer>
+    <h4>Page {pages.page.current} / {pages.page.last}</h4>
+    <nav class="nav">
+      {pages.page.current > 1 && <a class="first" href="/articles">First</a>}
+      <a class="prev" href={pages.url.prev || '#'}>Prev</a>
+      <a class="next" href={pages.url.next || '#'}>Next</a>
+      {pages.page.last > pages.page.current && <a class="first" href={`/articles/${pages.page.last}`}>Last</a>}
+    </nav>
+  </footer>
+</Main>

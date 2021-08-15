@@ -1,0 +1,44 @@
+---
+import Main from "~/layouts/Main.astro";
+import ismo from "./isms.11tydata.json";
+const {isms} = ismo;
+Astro.props.content = {title: "Crazy ideas to live by"};
+---
+<style>
+  img {
+    max-width: 100%;
+  }
+</style>
+<Main {...Astro.props}>
+  <div id="carousel-isms" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+    {isms.map((ism, index) =>
+      <button
+        type="button" data-bs-target="#carousel-isms"
+        data-bs-slide-to={index} class={index === 0 && 'active'}
+        aria-current="true" aria-label={ism.title}
+      ></button>
+    )}
+    </div>
+    <div class="carousel-inner">
+    {isms.map((ism, index) =>
+      <div class={`carousel-item ${index === 0 && 'active'}`}>
+        <img src={ './' + ism.image } class="d-block w-100" alt={ ism.title }>
+        <div class="carousel-caption d-block">
+          <h2 class="display-1">{ ism.title }</h2>
+        </div>
+      </div>
+    )}
+    </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-isms" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-isms" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+
+  Images credit unsplash.com.
+</Main>

@@ -1,0 +1,26 @@
+---
+import Main from "~/layouts/Main.astro";
+import DrupalImage from "~/components/DrupalImage.astro";
+import data from "./article/data.js";
+
+export async function createCollection() {
+  const nodes = await data();
+  return {
+    route: `/article/:slug`,
+    paths() {
+      return nodes.map((node, i) => ({params: {slug: node.slug}}));
+    },
+    async props({ params }) {
+      return {content: nodes.find((node) => node.slug === params.slug)};
+    },
+  };
+}
+
+const {content} = Astro.props;
+---
+<Main {...Astro.props}>
+  {content.field_image.map(image => 
+    <DrupalImage image={image} />
+  )}
+  {content.body}
+</Main>

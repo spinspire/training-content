@@ -1,0 +1,79 @@
+---
+import Main from "~/layouts/Main.astro";
+import data from "./video.11tydata.json";
+import {Markdown} from "astro/components"
+const currentPath = Astro.request.url.pathname.replace(/\/index$/, "");
+const writeups = Astro.fetchContent("~/pages/video/[!index]*.md");
+
+function YTVid({vid}) {
+  const _url = vid.id.kind === "youtube#video"
+    ? `https://youtube.com/watch?v=${vid.id.videoId}`
+    : `https://youtube.com/playlist?list=${vid.id.playlistId}`;
+  return <a class="col" href={ _url } target="_blank" style="text-decoration: none; color: inherit">
+    <div class="card mt-2 mb-2">
+      <img class="card-img-top" src={ vid.snippet.thumbnails.high.url } alt="YouTube thumbnail"/>
+      <div class="card-body">
+        <h5 class="card-title">{ vid.snippet.title }</h5>
+        {vid.snippet.description &&
+          <p class="card-text">{ vid.snippet.description }</p>
+        }
+      </div>
+    </div>
+  </a>
+}
+
+function Writeups() {
+  return <>
+    {writeups.map(pg =>
+      <a href={ pg.url } style="text-decoration: none; color: inherit">
+        <div class="card col">
+          <img class="card-img-top" src={`https://i.ytimg.com/vi/${pg.ytvid}/hqdefault.jpg`} alt="YouTube thumbnail"/>
+          <div class="card-body">
+            <h5 class="card-title">{pg.title}</h5>
+            {pg.description &&
+              <p class="card-text">{pg.description}</p>
+            }
+          </div>
+        </div>
+      </a>
+    )}
+  </>;
+}
+
+function list(list) {
+  return <>
+  {list
+    .filter(v => true)
+    .map(v => <YTVid vid={v} />)
+  }
+  </>;
+}
+const Playlists = () => list(data.playlists);
+const Videos = () => list(data.videos);
+Astro.props.content = {title: "SpinSpire YouTube Channel"};
+---
+<Main {...Astro.props}>
+  <Markdown>
+  We love to share knowledge by publishing videos, tutorials, and screencasts to the [SpinSpire YouTube channel](https://youtube.com/spinspire). So please subscribe.
+
+  ## Highlighted Videos
+
+  But now, the same videos are available with **extra show notes, written explanation, and code snippets**. Enjoy!
+
+  <div class="row row-cols-sm-2 row-cols-md-3">
+    <Writeups />
+  </div>
+
+  ## Playlists
+
+  <div class="row row-cols-sm-2 row-cols-lg-3">
+    <Playlists />
+  </div>
+
+  ## Other videos
+
+  <div class="row row-cols-xs-1 row-cols-sm-2 row-cols-lg-4">
+    <Videos />
+  </div>
+  </Markdown>
+</Main>

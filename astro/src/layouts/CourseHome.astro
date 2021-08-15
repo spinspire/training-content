@@ -1,0 +1,21 @@
+---
+import Main from "./Main.astro";
+const currentPath = Astro.request.url.pathname.replace(/\/index$/, "");
+const modules = Astro.fetchContent("~/pages/course/*/*/*.md")
+  .filter(m => m.url.startsWith(currentPath));
+const {content: {categories}} = Astro.props;
+---
+<Main {...Astro.props}>
+  <slot/>
+  <h2>Modules</h2>
+  <ul>{Object.entries(categories).map(([category, label]) =>
+    <li>{label}
+      <ul>{
+        modules
+        .filter(m => m.url.startsWith(currentPath + '/' + category))
+        .sort((a,b) => a.weight - b.weight)
+        .map(m => <li><a href={m.url}>{m.title}</a></li>)
+      }</ul>
+    </li>
+  )}</ul>
+</Main>

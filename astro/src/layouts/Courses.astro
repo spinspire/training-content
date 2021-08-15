@@ -1,0 +1,10 @@
+---
+import Main from "./Main.astro";
+const courses = Astro.fetchContent("~/pages/course/*/index.md");
+---
+<Main {...Astro.props}>
+  <slot/>
+  <ul>{courses.map(c => <li>
+    <a href={c.url}>{c.title}</a>
+  </li>)}</ul>
+</Main>

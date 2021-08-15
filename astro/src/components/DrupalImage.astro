@@ -1,0 +1,18 @@
+---
+import site from "../layouts/site.js";
+const { image: { id, alt, title } } = Astro.props;
+let src = null;
+
+if(id) {
+  const url = `${site.parent}/jsonapi/file/file/${id}`;
+  const json = await fetch(url).then(response => response.json());
+  src = `${site.parent}${json?.data?.attributes?.uri?.url}`;
+}
+---
+{src && <img {src} {alt} title={title || alt}>}
+
+<style>
+img {
+  max-width: 100%;
+}
+</style>
