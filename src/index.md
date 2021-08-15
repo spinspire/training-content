@@ -1,6 +1,5 @@
 ---
 title: Stay Curious
-author: SpinSpire Team
 ---
 
 _Welcome to {{ site.name }}!_

@@ -37,7 +37,7 @@ As seen in the example above, a function ...
 1.  Is a chunk of code with definite boundaries (begin and end) defined once.
 2.  Potentially *called* any number of times (if called more than once, it would be considered reusable).
     * There is a clear distinction between a *function definition* and a *function call*.
-      * Function definition: A procedure/process made from a chunk of code that is used to complete a task e.g. everything from the first to last curly brace "{ }" in the example above is the definition.
+      * Function definition: A procedure/process made from a chunk of code that is used to complete a task e.g. everything from the first to last curly brace `{...}` in the example above is the definition.
       * Function call: Actually using the function to complete a task e.g. compare(n1, n2) in example above.
     * The line of code that calls or invokes a function is called *caller* while the function itself is called *callee* in that context.
 3.  Has a specific *function* or responsibilities, e.g. this one compares two numbers.
@@ -56,10 +56,10 @@ As seen in the example above, a function ...
 - You can think of the formal parameters (`num1` and `num2`) as local variables in the function scope. Assigning new values to them doesn't affect the value of actual parameters (`n1` and `n2`). For example, if you added the following code somewhere in the function above, it would affect the value of `num1`, but not of `n1`.
 ```javascript
 num1 = 999;
-// Actual parameter 
+// Actual parameter
 ```
 
-- This behavior is called *pass-by-value*, where only a copy of the value of the actual parameter is passed, not the parameter variable from the caller context. 
+- This behavior is called *pass-by-value*, where only a copy of the value of the actual parameter is passed, not the parameter variable from the caller context.
   - In the code above, if assigning a new value to `num1` affected the value of `n1`, then that would be called *pass-by-reference*. JavaScript doesn't do that. It does *pass-by-value*.
 
 - But then, there are some scenarios under which it may *look like* you're getting pass-by-reference behavior (but you're not!). Here's an example:
@@ -85,7 +85,7 @@ const cust1 = {status: "standard"};
 console.log("customer", cust1); // {status: "standard"}
 upgradeCustomer(cust1);
 console.log("customer", cust1); // {status: "standard"}
-```  
+```
 
 - Then why are we getting the illusion of *pass-by-reference*? That's because objects (and arrays) are what we call "reference types". Meaning, variables of these types simply *point to* the object or the array in memory, they don't actually carry the entire object or array as value.
 

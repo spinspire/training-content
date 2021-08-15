@@ -1,5 +1,5 @@
 ---
-title: '"this" keyword'
+title: '`this` keyword'
 author: Brett Causey
 category: language
 weight: 20
@@ -8,13 +8,13 @@ weight: 20
 ## What is the `this` keyword in JavaScript?
 
 - The javascript this keyword refers to an object it belongs to.
-- "this" by itself refers to the global object and inside of a function "this" is undefined.
-- Inside of event handlers and functions the this keyword refers to what ever element received the event.
-- A functions "this" keyword behaves defferent in JS than in other programming languages.
-- Introduced in ES2015 you can now call the bind() method to set the value of this inside a function regardless how its being called.
-- However be noted that "arrow" functions dont provide their own "this" binding
+- `this` by itself refers to the global object and inside of a function `this` is undefined.
+- Inside of event handlers and functions the `this` keyword refers to what ever element received the event.
+- A functions `this` keyword behaves defferent in JS than in other programming languages.
+- Introduced in ES2015 you can now call the bind() method to set the value of `this` inside a function regardless how its being called.
+- However be noted that "arrow" functions dont provide their own `this` binding
 
-## An example of how "this" works:
+## An example of how `this` works
 
 ```javascript
 const testObj = {
@@ -28,16 +28,15 @@ console.log(testObj.inventory());
 // output: we have 20 hamburgers
 ```
 
-- You can use "this" inside your functions scope to acccess different properties inside your object.
-
-- Inside of an object this refers to the owner of the method.
+- You can use `this` inside your functions scope to acccess different properties inside your object.
+- Inside of an object `this` refers to the owner of the method.
 - In the example above the owner of the inventory method is the "testObj"
 
-## "this" used globally or outside of function scope.
+## `this` used globally or outside of function scope
 
-- When used by itself outside of a function the "this" keyword refers to the global object.
-- Inside of the browser when you use "this" keyword it refers to the [object window] this also works the same whther the browser is in strict mode or not.
-- to verify this you could inside your console execute the following command: `console.log(this === window).
+- When used by itself outside of a function the `this` keyword refers to the global object.
+- Inside of the browser when you use `this` keyword it refers to the [object window] `this` also works the same whther the browser is in strict mode or not.
+- to verify this you could inside your console execute the following command: `console.log(this === window)`.
 - This command should return true.
 
 ## Strict mode
@@ -141,4 +140,4 @@ const fun = new Toy("robot", 40);
 ## Closing
 
 - The "this" keyword is important becauase it is the high level overview of how to access objects
-- However it is rarely used in Javascript because functions (in non-strict mode) can access the global object through "this". Preventing access to the global object is one of the key purposes of any sandboxing system.
+- However it is rarely used in Javascript because functions (in non-strict mode) can access the global object through `this`. Preventing access to the global object is one of the key purposes of any sandboxing system.

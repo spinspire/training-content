@@ -126,6 +126,7 @@ But the same can be expressed in shorter and more readable way like this:
 const {name, age, ...without_name_and_age} = customer;
 const [sq0, sq1, sq2, ...sq3to9] = squares;
 ```
+
 *Note:* this block is ES6 notation.
 
 Notice the use of spread operator to catch all values that are not already destructured.
@@ -139,17 +140,21 @@ function foo({ name, age }) {
 
 foo(customer); // pass in the customer object
 ```
-## Nested Destructuring 
+
+## Nested Destructuring
+
 - In some situations, there will be arrays or objects in other arrays or objects (nested).
+
 ```javascript
 const food = {
     type: 'fruit',
     description: {
         color: 'blue',
         name: 'blueberry',
-    } 
+    }
 }
 const {description: {name}} = food;
 console.log(name); // prints blueberry
 ```
-- Similiar format to when there is just one object but with an extra layer of "{}"
+
+- Similiar format to when there is just one object but with an extra layer of `{}`
