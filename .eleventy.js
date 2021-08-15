@@ -4,6 +4,7 @@ const markdownIt = require('markdown-it')
 const markdownItAttrs = require('markdown-it-attrs')
 // see https://franknoirot.co/posts/external-links-markdown-plugin/
 const mdIterator = require('markdown-it-for-inline')
+const dateFilter = require('nunjucks-date-filter');
 
 const input = "src";
 const output = "dist";
@@ -13,6 +14,7 @@ const client = "client/public/build";
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("startsWith", (str, prefix) => str.startsWith(prefix));
+  eleventyConfig.addFilter("date", dateFilter);
   eleventyConfig.addFilter("slug", (str) => {
     return slugify(str, {
       lower: true,
