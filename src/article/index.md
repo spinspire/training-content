@@ -2,11 +2,11 @@
 title: SpinSpire Articles
 pagination:
   data: articles
-  size: 30
+  size: 20
 ---
 
 {% for article in pagination.items -%}
-- [{{ article.attributes.title }}]({{ article.attributes.path.alias | url }}/)
+- [{{ article.title }}]({{ article.alias | url }}/)
 {% endfor %}
 
 <nav aria-label="Page navigation">
