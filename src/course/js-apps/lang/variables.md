@@ -2,13 +2,12 @@
 title: Variable Declarations
 author: Brett Causey
 category: language
+weight: -100
 ---
 
-## What are variable declarations?
-
-- A variable declaration gives a name and a data type for the variable.
-- These declarations may also have a specific value placed inside of it.
-- A variable can not be used in a program unless it has already been declared.
+- A variable declaration gives a name and a data type to a variable.
+- These declarations may also include initial value.
+- A variable can not be used in a program before it is declared.
 
 Keywords to declare variables in JavaScript are ...
 
@@ -16,41 +15,40 @@ Keywords to declare variables in JavaScript are ...
 - `const`
 - `var`
 
-## var
+## `var` keyword
 
 - It was a variable declaration before ES6 and is now mainly unused however you still may see older repositories using it. So it is important to understand what it is.
 - Scope essentially means where variables can be used after declaring them.
-- var can either be function/locally scoped or globally.
-- Var declaration is global when it is declared outside a function.
-- When var is declared inside a function it is locally scoped for use only in that function.
+- A variable can either be function scope, local scope (within a block) or global scope.
+- Variable declaration is global when it is declared outside a function (at top level).
+- When `var` is declared inside a function it is locally scoped for use only in that function.
 
-### Here is an example of var:
+Example of `var`:
 
 ```javascript
-var hello = "hello"
-function helloFunction(){
-    var hi = "hello"
-    console.log(hi, hello); //this can be done because var hello is global and is declared outside the function
+var hello = "hello"; // global
+function helloFunction() {
+  var hi = "hello"; // function local
+  console.log(hi, hello); // this can be done because var "hello" is global
 }
-console.log(hi,hello);
+console.log(hi,hello); // error: "hi" is not defined
 /*
-* error: hi is not defined
-* the reason for this is because hi is only
-* locally defined in the helloFunction
-*/
+ * the reason for this is because "hi" is only
+ * locally defined in helloFunction
+ */
 ```
 
-### Variable can be re-declared and updated
+`var` can be re-declared and updated:
 
 ```javascript
-var hi = "hi"
-var hi = "hello hi"
-hi = "say hello"
+var hi = "hi";
+var hi = "hello hi";
+hi = "say hello";
 ```
 
-### The problem with var
+The problem with var:
 
-- At this point you have to be thinking what's the downside of var? I'll show you in the example below!
+- At this point you have to be thinking what's the downside of `var`? I'll show you in the example below!
 
 ```javascript
 var hi = "hi";
@@ -66,7 +64,7 @@ console.log(hi); //"im saying hello now"
 - Especially if you have used the var "hi" in other parts of your code you will maybe get surprise output.
 - This is why let, and const are necessary
 
-## Let
+## `let` keyword
 
 - It is now the go to variable declaration, it improves on var in many way.
 - One of those ways is by solving the problem with var we discussed above.
@@ -88,7 +86,7 @@ console.log(myItem);
 - Here you can see that myItem is outside of its block and therefore is undefined
 - This shows that let is block scoped.
 
-### let can be updated
+let can be updated:
 
 - Just like var, let can be updated within its scope but it can not be declared again within it's scope
 
@@ -116,7 +114,7 @@ console.log(banana); // output: banana
 
 - This solve the issues with var because you can only declare the same variable within one scope once and only once.
 
-## Const
+## `const` keyword
 
 - Variables that are declared with const maintain constant values.
 - const just like let can only be accessed within the block scope they are declared in.
@@ -144,16 +142,17 @@ const hello = "say Hello instead";
 
 ## Hoisting of let, const, and var
 
-- Hoisting is a javascript mechanism where variables and functions are all moved to the top of there scope before code execution
-- Just the same as let, const declarations are hoisted to the top but are not initialized
-- Unlike let and const var is initialized as undefined, so if you try to use a let variable before declaration you'll get a reference error
-- An example of hoisting would be this:
+- Hoisting is a javascript mechanism where variables and functions are all moved to the top of their scope before code execution
+- Just the same as `let`, `const` declarations are hoisted to the top but are not initialized
+- Unlike `let` and `const`, `var` is initialized as undefined, so if you try to use a `let` variable before declaration you'll get a reference error
+
+An example of hoisting:
 
 ```javascript
 console.log(greeter);
 var greeter = "say hello";
 /*
- * javascript interprets the above code to this
+ * javascript interprets the above code as this
  */
 var greeter;
 console.log(greeter); // greeter is undefined
@@ -163,7 +162,6 @@ greeter = "say hello";
 ## In summary
 
 - Understanding variable declarations is extremely important in any type of programming.
-- Understanding how and when to use these variable within the scope of your project will make designing an application much easier
-- Also with utilizing the variable declarations of let and const they allow you to keep your code "dry".
-- This means that you aren't repeating yourself with the same variables within your projects and can keep code clean and less confusing overall.
-- The most important thing to remember is to keep your code simple, by using const over let you can make sure that a single variable represents a single value of data, which you can accomplish with using const over let.
+- Understanding how and when to use these variables within the scope of your project will make designing an application much easier
+- Also with utilizing the variable declarations of `let` and `const` they allow you to keep your code "DRY" (_Don't Repeat Yourself_: means that you aren't repeating yourself with the same variables within your projects and can keep code clean and less confusing overall)
+- The most important thing to remember is to keep your code simple. By using `const` over `let` you can make sure that a single variable represents a fixed, determinate value of data, which you can accomplish with using `const` over `let`.

@@ -1,10 +1,11 @@
 ---
 title: Closures
-author: Chaise Matev Joshua Leisure
+author: Chaise Matev
 category: language
+weight: 100
 references: 
-"Closures": https://www.w3schools.com/js/js_function_closures.asp
-"Closure Examples": https://dev.to/soumyadey/understanding-lexical-scope-closures-in-javascript-229b
+  "Closures": https://www.w3schools.com/js/js_function_closures.asp
+  "Closure Examples": https://dev.to/soumyadey/understanding-lexical-scope-closures-in-javascript-229b
 ---
 
 ## What is a closure?
