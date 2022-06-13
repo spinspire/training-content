@@ -11,6 +11,7 @@ The alignment of the business activities (back-office in case of a technology bu
 Despite blitzscaling being important, especially for young startups to survive, there should be an understanding, in any sized business, how the next growth spree is going to look like. Always powered from within, some will innovate with an internal software aiming to see a immediate benefit operations, consequently putting them in a position to grow outwards. On the other hand, others will build an external software to firstly impact the clientele with the intention to bring income, facilitation, and image likeness that will help the business grow as a consequence.
 
 **~~Picture #2**~~
+>The image above presents how using a internal software will allow one to organize operations such as a software in which employees can facilitate a internal process or store and process data in a certain format. Meanwhile, a external software is used as a quicker chanel to the client, whether it is to sell a good or provide a service.
 
 Understanding if the software is internal or external will make a big difference down the stretch. This will affect many of the processes during the project such as urgency, budget, legal implications and some areas of the company.
 

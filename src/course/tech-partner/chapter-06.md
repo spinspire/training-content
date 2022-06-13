@@ -5,7 +5,9 @@ Considering one has already a formed partnership with a non-technical partner, t
 
 The technical partner's experience will weight in when building the scope, as one that has much of, will be able to say with a better degree of precision on both cost and time.
 
-Even though it might be tempting to make slight adjustments to the MVP if they are not going to cost any extra, make sure that those additions make sense in the building of the project. As previously mentioned in **"Article name"**, overstepping can not only cost you users if an external solution, but it can literally cost you a lot more money. At this point in time, it is important to think on the price-per-feature. Is adding this going to make a difference on the revenue? This is a question that needs to be asked multiple times throughout the process of understanding your MVP.
+Even though it might be tempting to make slight adjustments to the MVP if they are not going to cost any extra, make sure that those additions make sense in the building of the project. As previously mentioned in **"Article name"**, overstepping can not only cost you users if an external solution, but it can literally cost you a lot more money. As shown on the image below, thr MVP should be straight forward. The understanding of the idea is the circle as a whole, but the MVP is the heart of the funcionality. At this point in time, it is important to think on the price-per-feature. Is adding this going to make a difference on the revenue? This is a question that needs to be asked multiple times throughout the process of understanding your MVP.
+
+**image #7**
 
 ## Scoping
 >Having a good discussion with your technological partner can make the solution more viable.

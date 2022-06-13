@@ -3,9 +3,17 @@
 
 As the development is about to conclude, the technological partner will have something to show for. This means that the core coding is done and some visuals begin to function. It is most likely that the software will not be fully functioning, but that's because it is not ready yet.
 
+**image #8**
+
+>The cycle shown above shows the process between the delivery to the non-technical founder and the delivery to market. The cycle can go around as many times as needed.
+
 Last article it was mentioned that it is crucial for one to make sure the other areas of the business are in the same page as the development. Well, this is the time where operationally, you can be ahead of your time. As you have images, a sense of how it is really looking and a estimated delivery date with a safe buffer (better deliver earlier rather than later of a promise date) and a better idea of how it will really look and function, you can now begin to tease the users with a near implementation. Depending on who your target user is, this will allow you to either begin to pitch your solution to users  if external or heat the conversations if internal.
 
-From this moment, there are two one can take it's relationship with the technical partner. Despite the development not being ready, software developers need to plan themselves ahead of time in order to understand if they can begin to allocate workforce for upcoming projects or if the developers will continue working on your solution. 
+From this moment, there are two one can take it's relationship with the technical partner. Despite the development not being ready, software developers need to plan themselves ahead of time in order to understand if they can begin to allocate workforce for upcoming projects or if the developers will continue working on your solution.
+
+**image #9**
+
+>The image above shows the timeline between a technical and non technical founder. After the product is market-ready, the relationship may or may not continue upon your decision
 
 ### Relation
 >As your relationship with your technological partner comes close to an end (if outsourcing was the option chosen), there are two ways to go from here:

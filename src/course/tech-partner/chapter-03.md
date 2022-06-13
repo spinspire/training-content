@@ -3,7 +3,7 @@
 
 Building technology is trial and error. One must be aware that the costs to keep a tech solution up and running are relatively high. It is a high investment high return project if the metrics of the idea are correctly analyzed, as mentioned on the previous article. As projects can go over the estimated budget expectations, there has got to be an understanding that what you expect to spend on development should not even be half of your project's budget. In case of a poor financial planing, if more resource is not injected, the project could fail to conclude the development phase.
 
-**graph on planning budget**
+**picture 4**
 
 The graph above shows an example of how a healthy financial plan for a project development would look like. This can vary between projects given the amount of choice pathways that one will face when designing their own journey. Even though prices vary, it is safe to say the majority of the projects will cost a non-technical partner around $50,000 or higher depending on the complexity of the project. This price is based on the high salary of technological workers. On the following article, we will dive deeper on different ways off paying or investing into building a solution. 
 

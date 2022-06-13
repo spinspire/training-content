@@ -17,4 +17,8 @@ The quality and time estimated for the completion of your project are correlated
 
 You should not be taken by the idea that a company or a team you insourced will finish the project within half of the timeline someone else gave you- it will most likely not run smoothly an
 
-When settling the last remarks about the partnership, make sure you're familiar of who you're settling with. If possible, invite the developers, whether insourcing or outsourcing, into your company or visit where they are settled to create a sense of culture while developing the project. 
+When settling the last remarks about the partnership, make sure you're familiar of who you're settling with. If possible, invite the developers, whether insourcing or outsourcing, into your company or visit where they are settled to create a sense of culture while developing the project.
+
+**Picture #6**
+
+>The image above shows how to funnel down to the best options step by step

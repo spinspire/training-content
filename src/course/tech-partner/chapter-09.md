@@ -12,4 +12,6 @@ SpinSpire developers are some of the best in the industry. They're good communic
 #### Consulting
 Have one of our **name of position** oversee a project you are developing. Let us give an input on what we think, creating a unbiased technological perspective that might occur when outsourcing.
 
+**image #10**
+
 **Check out more about SpinSpire and how we can add value to your technological solution at spinspire.com!**
