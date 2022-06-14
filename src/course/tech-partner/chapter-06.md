@@ -1,3 +1,9 @@
+---
+title: Building your MVP
+author: Bernardo Brandano
+category: biztech
+weight: 6
+---
 # Building your MVP
 >Potential scalability is very important for every business to maintain themselves competitive amongst other players in the market. But the evolution orbits the main focus.
 

@@ -1,3 +1,9 @@
+---
+title: Overseeing the progress
+author: Bernardo Brandano
+category: biztech
+weight: 7
+---
 # Overseeing the progress
 >Assuming your project is already in development, being on the same page as the technical founder will allow you to understand when certain actions or intervention are needed. 
 

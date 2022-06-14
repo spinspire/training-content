@@ -1,3 +1,9 @@
+---
+title: In Closing
+author: Bernardo Brandano
+category: biztech
+weight: 9
+---
 # Final Remarks
 >Dear reader,
 >Thank you for joining us on the breakdown of the journey to software development.

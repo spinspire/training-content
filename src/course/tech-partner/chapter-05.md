@@ -1,3 +1,9 @@
+---
+title: How To Evaluate Your Technology Partner
+author: Bernardo Brandano
+category: biztech
+weight: 5
+---
 # How To Evaluate Your Technology Partner
 > When narrowing down the list of technological contenders, are sure 
 

@@ -1,3 +1,9 @@
+---
+title: Understanding Technology
+author: Bernardo Brandano
+category: biztech
+weight: 1
+---
 # Understanding Technology:
 > The first thing to reflect when building a technological solution is if the technology is being built around an idea or is the idea being built around technology. Is the intent to facilitate or innovate a process of a already existing company/startup or is the company/startup being founded around this new technology?
 

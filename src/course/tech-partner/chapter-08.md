@@ -1,3 +1,9 @@
+---
+title: Relationship with your technology partner
+author: Bernardo Brandano
+category: biztech
+weight: 8
+---
 # Settling the relationship with your technology partner
 >When a decision is already taken on who the technological partner is, laying out the terms in a contract and cultivating a relationship is important, for both sides.
 

@@ -1,3 +1,9 @@
+---
+title: Budget
+author: Bernardo Brandano
+category: biztech
+weight: 3
+---
 # Budget
 >Don't be discouraged on costs of development. They are high across the market, as it is proven that if properly implemented, there will be a positive outcome. 
 

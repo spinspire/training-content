@@ -1,3 +1,9 @@
+---
+title: Searching for a Technology Partner
+author: Bernardo Brandano
+category: biztech
+weight: 4
+---
 # Searching for a Technology Partner: The breakdown
 >Seeking out for a technical party from a nontechnical perspective, if you are not familiar with tech, is the first step of many steps one will be taking out of their comfort zone. It's almost like swimming in open ocean. You don't know what to expect and quite frankly, sometimes what to even look for. Here is a breakdown on what to look for.
 

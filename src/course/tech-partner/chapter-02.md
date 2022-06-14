@@ -1,3 +1,9 @@
+---
+title: Predevelopment Understanding
+author: Bernardo Brandano
+category: biztech
+weight: 2
+---
 # Predevelopment Understanding
 >Putting the project to paper is a good way of evaluating crucial points of what this project will require from the business/back-office and the non-technical responsible himself.
 
