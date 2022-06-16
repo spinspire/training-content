@@ -7,8 +7,7 @@ weight: 1
 # Understanding Technology:
 > The first thing to reflect when building a technological solution is if the technology is being built around an idea or is the idea being built around technology. Is the intent to facilitate or innovate a process of a already existing company/startup or is the company/startup being founded around this new technology?
 
-
-**~~Picture #1**~~
+![Figure 1: flow diagram](images/picture1.png)
 
 There is an abundance of existing technological resources one can acquire, subscribe or simply utilize for their business. Nowadays, it is very rare to come across businesses that do not count on softwares, as they facilitates running a scalable, errand-free operation. Often overseen if not perceived as the main activity of a given business, technology comes in play in the backstage of most successful ventures, whether as an internal or external software. The technological needs of a business differs from one another, depending on the intentions and objectives they plan on achieving when implementing the technology.
 
