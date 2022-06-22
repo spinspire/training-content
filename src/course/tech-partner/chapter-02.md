@@ -28,7 +28,7 @@ If researching for an internal solution, there is always a SWOT analysis to make
 |Weaknesses| Adapting operation to given solution
 |Oportunities|Quick adaption to the market
 |Threats|Relying on a third party  third party software
-||
+{."table table-bordered table-info"}
 
 | |Internal software development|
 |----------------|-------------------------------|-
@@ -36,8 +36,7 @@ If researching for an internal solution, there is always a SWOT analysis to make
 |Weaknesses| Investment to be done
 |Oportunities|On demand improvement and updates
 |Threats|Operations underutilizing the investment
-||
-
+{."table table-bordered table-info"}
 
 ### Marketing
 
