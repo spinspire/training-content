@@ -25,6 +25,6 @@ You should not be taken by the idea that a company or a team you insourced will 
 
 When settling the last remarks about the partnership, make sure you're familiar of who you're settling with. If possible, invite the developers, whether insourcing or outsourcing, into your company or visit where they are settled to create a sense of culture while developing the project.
 
-**Picture #6**
+![Image 6: funnel](images/picture6.png){class=img-fluid}
 
->The image above shows how to funnel down to the best options step by step
+>The image above shows the step by step on how to funnel down to the best options until you are left with the last few technological partners you are seeking to pair with.

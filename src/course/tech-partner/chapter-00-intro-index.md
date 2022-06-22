@@ -6,7 +6,7 @@ SpinSpire would like to welcome you to read about the journey of developing a so
 
 The target audience of this guide are primarily people who do not have enough technical knowledge to develop a software themselves. The ultimate goal of these publications is to make non-technological partners that may be hesitant to begin this journey feel comfortable by providing enough information and guidance about what the steps look like without finding out throughout the process.
 
-Along these articles, we will cover the following topics:
+The topics covered in these articles will be:
 • Chapter 01: Understanding Technology
 • Chapter 02: Predevelopment duties
 • Chapter 04: Budget
