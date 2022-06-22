@@ -20,10 +20,12 @@ const plugins = [
     duration: 50,
   }),
 ];
-const swup = new Swup({
-  containers,
-  plugins,
-});
+
+// TODO: disabled as it was misinterpreting relative URL paths and breaking images
+// const swup = new Swup({
+//   containers,
+//   plugins,
+// });
 
 new Auth({
   target: document.getElementById('auth'),

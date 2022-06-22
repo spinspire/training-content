@@ -7,3 +7,4 @@ dist-ssr
 .npm
 .config/configstore/update-notifier-npm.json
 package-lock.json
+.ash_history
