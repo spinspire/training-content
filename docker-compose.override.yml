@@ -1,5 +1,3 @@
-version: "3.5"
-
 services:
   web:
     logging:
@@ -9,11 +7,11 @@ services:
         max-file: "15"
     labels:
       - traefik.enable=true
-      - traefik.http.routers.${APP}.rule=Host(`${HTTP_HOSTNAME}`, `www.${HTTP_HOSTNAME}`)
+      - traefik.http.routers.${APP}.rule=Host(`${HTTP_HOSTNAME}`)
     networks:
-      - web
+      - traefik_default
       - default
 
 networks:
-  web:
+  traefik_default:
     external: true
